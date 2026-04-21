@@ -912,6 +912,120 @@
           "isNew": false
         }
       ]
+    },
+    {
+      "runId": "24742447117",
+      "timestamp": "2026-04-21T19:38:00.753Z",
+      "date": "2026-04-21",
+      "month": "2026-04",
+      "branch": "qa",
+      "commitSha": "cf6e143",
+      "environment": "qa",
+      "totalTests": 8,
+      "passed": 8,
+      "failed": 0,
+      "skipped": 0,
+      "timedOut": 0,
+      "duration": 58776,
+      "newTests": 0,
+      "tests": [
+        {
+          "id": "e38b6a822a9d1c446577-ad760010052023a5c9cc",
+          "title": "Agent Login Test",
+          "fullTitle": " > auth-customer > authentication/customer.auth.ts > Customer Authentication Tests > Agent Login Test",
+          "file": "/home/runner/work/playwright-framework/playwright-framework/src/tests/authentication/customer.auth.ts",
+          "suite": "Customer Authentication Tests",
+          "status": "passed",
+          "duration": 18843,
+          "retries": 0,
+          "tags": [],
+          "isNew": false
+        },
+        {
+          "id": "55abc3953a588750bf5c-9f9e80906f22cdc0352b",
+          "title": "Agent Login Test",
+          "fullTitle": " > auth-agent > authentication/agent.auth.ts > Agent Authentication Tests > Agent Login Test",
+          "file": "/home/runner/work/playwright-framework/playwright-framework/src/tests/authentication/agent.auth.ts",
+          "suite": "Agent Authentication Tests",
+          "status": "passed",
+          "duration": 19939,
+          "retries": 0,
+          "tags": [],
+          "isNew": false
+        },
+        {
+          "id": "6137f824650c8fad06e6-5404ee470945c940e08e",
+          "title": "Admin Login Test",
+          "fullTitle": " > auth-admin > authentication/admin.auth.ts > Admin Authentication Tests > Admin Login Test",
+          "file": "/home/runner/work/playwright-framework/playwright-framework/src/tests/authentication/admin.auth.ts",
+          "suite": "Admin Authentication Tests",
+          "status": "passed",
+          "duration": 20355,
+          "retries": 0,
+          "tags": [],
+          "isNew": false
+        },
+        {
+          "id": "d8ded18deb5ac2c00e94-be3464153d1eca6fd8d4",
+          "title": "Verify firstName input validation",
+          "fullTitle": " > guest > agentSignup/agentSignUp.spec.ts > Agent Signup Page @regression @guest > Verify firstName input validation",
+          "file": "/home/runner/work/playwright-framework/playwright-framework/src/tests/agentSignup/agentSignUp.spec.ts",
+          "suite": "Agent Signup Page @regression @guest",
+          "status": "passed",
+          "duration": 19125,
+          "retries": 0,
+          "tags": [],
+          "isNew": false
+        },
+        {
+          "id": "d8ded18deb5ac2c00e94-1484bea8dbb402cdb857",
+          "title": "Verify lastName input validation",
+          "fullTitle": " > guest > agentSignup/agentSignUp.spec.ts > Agent Signup Page @regression @guest > Verify lastName input validation",
+          "file": "/home/runner/work/playwright-framework/playwright-framework/src/tests/agentSignup/agentSignUp.spec.ts",
+          "suite": "Agent Signup Page @regression @guest",
+          "status": "passed",
+          "duration": 20819,
+          "retries": 0,
+          "tags": [],
+          "isNew": false
+        },
+        {
+          "id": "d8ded18deb5ac2c00e94-e3c894b81a4145b70bb4",
+          "title": "Verify successful customer signup",
+          "fullTitle": " > guest > agentSignup/agentSignUp.spec.ts > Agent Signup Page @regression @guest > Verify successful customer signup",
+          "file": "/home/runner/work/playwright-framework/playwright-framework/src/tests/agentSignup/agentSignUp.spec.ts",
+          "suite": "Agent Signup Page @regression @guest",
+          "status": "passed",
+          "duration": 25288,
+          "retries": 0,
+          "tags": [],
+          "isNew": false
+        },
+        {
+          "id": "d8ded18deb5ac2c00e94-0bf6258c80874c7926b2",
+          "title": "Verify email input validation",
+          "fullTitle": " > guest > agentSignup/agentSignUp.spec.ts > Agent Signup Page @regression @guest > Verify email input validation",
+          "file": "/home/runner/work/playwright-framework/playwright-framework/src/tests/agentSignup/agentSignUp.spec.ts",
+          "suite": "Agent Signup Page @regression @guest",
+          "status": "passed",
+          "duration": 13945,
+          "retries": 0,
+          "tags": [],
+          "isNew": false
+        },
+        {
+          "id": "d8ded18deb5ac2c00e94-6c22dc2397315d5c28ca",
+          "title": "Verify password input validation",
+          "fullTitle": " > guest > agentSignup/agentSignUp.spec.ts > Agent Signup Page @regression @guest > Verify password input validation",
+          "file": "/home/runner/work/playwright-framework/playwright-framework/src/tests/agentSignup/agentSignUp.spec.ts",
+          "suite": "Agent Signup Page @regression @guest",
+          "status": "passed",
+          "duration": 12895,
+          "retries": 0,
+          "tags": [],
+          "isNew": false
+        }
+      ]
     }
   ]
 }
