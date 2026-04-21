@@ -1026,6 +1026,120 @@
           "isNew": false
         }
       ]
+    },
+    {
+      "runId": "24742447117",
+      "timestamp": "2026-04-21T19:41:26.029Z",
+      "date": "2026-04-21",
+      "month": "2026-04",
+      "branch": "qa",
+      "commitSha": "cf6e143",
+      "environment": "qa",
+      "totalTests": 8,
+      "passed": 8,
+      "failed": 0,
+      "skipped": 0,
+      "timedOut": 0,
+      "duration": 41202,
+      "newTests": 0,
+      "tests": [
+        {
+          "id": "4a9efd0c7e3d35a97a8d-cd7232baebdb88a6e287",
+          "title": "Verify navigation to tours booking page",
+          "fullTitle": " > guest > home/home.spec.ts > Home Page @regression @guest > Verify navigation to tours booking page",
+          "file": "/home/runner/work/playwright-framework/playwright-framework/src/tests/home/home.spec.ts",
+          "suite": "Home Page @regression @guest",
+          "status": "passed",
+          "duration": 13811,
+          "retries": 0,
+          "tags": [],
+          "isNew": false
+        },
+        {
+          "id": "4a9efd0c7e3d35a97a8d-3e7820c3b65db36493c6",
+          "title": "Verify header navigation links are present",
+          "fullTitle": " > guest > home/home.spec.ts > Home Page @regression @guest > Verify header navigation links are present",
+          "file": "/home/runner/work/playwright-framework/playwright-framework/src/tests/home/home.spec.ts",
+          "suite": "Home Page @regression @guest",
+          "status": "passed",
+          "duration": 14197,
+          "retries": 0,
+          "tags": [],
+          "isNew": false
+        },
+        {
+          "id": "4a9efd0c7e3d35a97a8d-66577359e9b906fe30f9",
+          "title": "Verify navigation to visa booking page",
+          "fullTitle": " > guest > home/home.spec.ts > Home Page @regression @guest > Verify navigation to visa booking page",
+          "file": "/home/runner/work/playwright-framework/playwright-framework/src/tests/home/home.spec.ts",
+          "suite": "Home Page @regression @guest",
+          "status": "passed",
+          "duration": 15195,
+          "retries": 0,
+          "tags": [],
+          "isNew": false
+        },
+        {
+          "id": "4a9efd0c7e3d35a97a8d-96a145f4f5222c50425a",
+          "title": "Verify navigation to cars booking page",
+          "fullTitle": " > guest > home/home.spec.ts > Home Page @regression @guest > Verify navigation to cars booking page",
+          "file": "/home/runner/work/playwright-framework/playwright-framework/src/tests/home/home.spec.ts",
+          "suite": "Home Page @regression @guest",
+          "status": "passed",
+          "duration": 13893,
+          "retries": 0,
+          "tags": [],
+          "isNew": false
+        },
+        {
+          "id": "4a9efd0c7e3d35a97a8d-5f1fef8d323d1cb8177e",
+          "title": "Verify navigation to flight booking page",
+          "fullTitle": " > guest > home/home.spec.ts > Home Page @regression @guest > Verify navigation to flight booking page",
+          "file": "/home/runner/work/playwright-framework/playwright-framework/src/tests/home/home.spec.ts",
+          "suite": "Home Page @regression @guest",
+          "status": "passed",
+          "duration": 16862,
+          "retries": 0,
+          "tags": [],
+          "isNew": false
+        },
+        {
+          "id": "4a9efd0c7e3d35a97a8d-3d7a18fbbc701b2e9eeb",
+          "title": "Verify navigation to stays booking page",
+          "fullTitle": " > guest > home/home.spec.ts > Home Page @regression @guest > Verify navigation to stays booking page",
+          "file": "/home/runner/work/playwright-framework/playwright-framework/src/tests/home/home.spec.ts",
+          "suite": "Home Page @regression @guest",
+          "status": "passed",
+          "duration": 16162,
+          "retries": 0,
+          "tags": [],
+          "isNew": false
+        },
+        {
+          "id": "4a9efd0c7e3d35a97a8d-5da6f2dc0fa34dc7e012",
+          "title": "Verify navigation to contact us page",
+          "fullTitle": " > guest > home/home.spec.ts > Home Page @regression @guest > Verify navigation to contact us page",
+          "file": "/home/runner/work/playwright-framework/playwright-framework/src/tests/home/home.spec.ts",
+          "suite": "Home Page @regression @guest",
+          "status": "passed",
+          "duration": 10029,
+          "retries": 0,
+          "tags": [],
+          "isNew": false
+        },
+        {
+          "id": "4a9efd0c7e3d35a97a8d-910b5fb789431cf2791b",
+          "title": "Verify navigation to about us page",
+          "fullTitle": " > guest > home/home.spec.ts > Home Page @regression @guest > Verify navigation to about us page",
+          "file": "/home/runner/work/playwright-framework/playwright-framework/src/tests/home/home.spec.ts",
+          "suite": "Home Page @regression @guest",
+          "status": "passed",
+          "duration": 7915,
+          "retries": 0,
+          "tags": [],
+          "isNew": false
+        }
+      ]
     }
   ]
 }
