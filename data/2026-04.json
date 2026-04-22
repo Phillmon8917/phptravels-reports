@@ -1140,6 +1140,120 @@
           "isNew": false
         }
       ]
+    },
+    {
+      "runId": "24765584642",
+      "timestamp": "2026-04-22T07:20:22.281Z",
+      "date": "2026-04-22",
+      "month": "2026-04",
+      "branch": "qa",
+      "commitSha": "9530109",
+      "environment": "qa",
+      "totalTests": 8,
+      "passed": 8,
+      "failed": 0,
+      "skipped": 0,
+      "timedOut": 0,
+      "duration": 43494,
+      "newTests": 0,
+      "tests": [
+        {
+          "id": "4a9efd0c7e3d35a97a8d-b58bb54111b607f3fb68",
+          "title": "Verify navigation to cookies policy page",
+          "fullTitle": " > guest > home/home.spec.ts > Home Page @regression @guest > Verify navigation to cookies policy page",
+          "file": "/home/runner/work/playwright-framework/playwright-framework/src/tests/home/home.spec.ts",
+          "suite": "Home Page @regression @guest",
+          "status": "passed",
+          "duration": 14367,
+          "retries": 0,
+          "tags": [],
+          "isNew": false
+        },
+        {
+          "id": "4a9efd0c7e3d35a97a8d-3c524686574df9547e1e",
+          "title": "Verify navigation to privacy policy page",
+          "fullTitle": " > guest > home/home.spec.ts > Home Page @regression @guest > Verify navigation to privacy policy page",
+          "file": "/home/runner/work/playwright-framework/playwright-framework/src/tests/home/home.spec.ts",
+          "suite": "Home Page @regression @guest",
+          "status": "passed",
+          "duration": 14700,
+          "retries": 0,
+          "tags": [],
+          "isNew": false
+        },
+        {
+          "id": "4a9efd0c7e3d35a97a8d-84145e74ae7ffe1458c7",
+          "title": "Verify navigation to become a supplier page",
+          "fullTitle": " > guest > home/home.spec.ts > Home Page @regression @guest > Verify navigation to become a supplier page",
+          "file": "/home/runner/work/playwright-framework/playwright-framework/src/tests/home/home.spec.ts",
+          "suite": "Home Page @regression @guest",
+          "status": "passed",
+          "duration": 14754,
+          "retries": 0,
+          "tags": [],
+          "isNew": false
+        },
+        {
+          "id": "4a9efd0c7e3d35a97a8d-97b225e590ef7c052cb0",
+          "title": "Verify navigation to terms of use page",
+          "fullTitle": " > guest > home/home.spec.ts > Home Page @regression @guest > Verify navigation to terms of use page",
+          "file": "/home/runner/work/playwright-framework/playwright-framework/src/tests/home/home.spec.ts",
+          "suite": "Home Page @regression @guest",
+          "status": "passed",
+          "duration": 16004,
+          "retries": 0,
+          "tags": [],
+          "isNew": false
+        },
+        {
+          "id": "4a9efd0c7e3d35a97a8d-78420a6aa1c61cedc82e",
+          "title": "Should verify navigation to blogs page",
+          "fullTitle": " > guest > home/home.spec.ts > Home Page @regression @guest > Should verify navigation to blogs page",
+          "file": "/home/runner/work/playwright-framework/playwright-framework/src/tests/home/home.spec.ts",
+          "suite": "Home Page @regression @guest",
+          "status": "passed",
+          "duration": 15774,
+          "retries": 0,
+          "tags": [],
+          "isNew": false
+        },
+        {
+          "id": "4a9efd0c7e3d35a97a8d-80ee0b9d6263ba5749ac",
+          "title": "Should verify language change",
+          "fullTitle": " > guest > home/home.spec.ts > Home Page @regression @guest > Should verify language change",
+          "file": "/home/runner/work/playwright-framework/playwright-framework/src/tests/home/home.spec.ts",
+          "suite": "Home Page @regression @guest",
+          "status": "passed",
+          "duration": 18373,
+          "retries": 0,
+          "tags": [],
+          "isNew": false
+        },
+        {
+          "id": "4a9efd0c7e3d35a97a8d-c8f0c52a3c382a70b52d",
+          "title": "Should verify navigation to login page",
+          "fullTitle": " > guest > home/home.spec.ts > Home Page @regression @guest > Should verify navigation to login page",
+          "file": "/home/runner/work/playwright-framework/playwright-framework/src/tests/home/home.spec.ts",
+          "suite": "Home Page @regression @guest",
+          "status": "passed",
+          "duration": 10068,
+          "retries": 0,
+          "tags": [],
+          "isNew": false
+        },
+        {
+          "id": "4a9efd0c7e3d35a97a8d-370f75ee4c9e57e9fa4a",
+          "title": "Should verify currency change",
+          "fullTitle": " > guest > home/home.spec.ts > Home Page @regression @guest > Should verify currency change",
+          "file": "/home/runner/work/playwright-framework/playwright-framework/src/tests/home/home.spec.ts",
+          "suite": "Home Page @regression @guest",
+          "status": "passed",
+          "duration": 10856,
+          "retries": 0,
+          "tags": [],
+          "isNew": false
+        }
+      ]
     }
   ]
 }
