@@ -4080,5 +4080,69 @@
       "tags" : [ ],
       "isNew" : true
     } ]
+  }, {
+    "runId" : "24932362384",
+    "timestamp" : "2026-04-25T13:52:36.503Z",
+    "date" : "2026-04-25",
+    "month" : "2026-04",
+    "branch" : "4/merge",
+    "commitSha" : "b995153",
+    "environment" : "develop",
+    "totalTests" : 4,
+    "passed" : 4,
+    "failed" : 0,
+    "skipped" : 0,
+    "timedOut" : 0,
+    "duration" : 90259,
+    "newTests" : 4,
+    "tests" : [ {
+      "id" : "[engine:junit-jupiter]/[class:tests.signup.tests.agent.AgentSignupTest]/[method:verifyConfirmPasswordInputValidation()]",
+      "title" : "verifyConfirmPasswordInputValidation()",
+      "fullTitle" : "AgentSignupTest > verifyConfirmPasswordInputValidation()",
+      "file" : "AgentSignupTest.java",
+      "suite" : "AgentSignupTest",
+      "status" : "passed",
+      "duration" : 55035,
+      "retries" : 0,
+      "error" : null,
+      "tags" : [ ],
+      "isNew" : true
+    }, {
+      "id" : "[engine:junit-jupiter]/[class:tests.signup.tests.agent.AgentSignupTest]/[method:verifyFirstNameInputValidation()]",
+      "title" : "verifyFirstNameInputValidation()",
+      "fullTitle" : "AgentSignupTest > verifyFirstNameInputValidation()",
+      "file" : "AgentSignupTest.java",
+      "suite" : "AgentSignupTest",
+      "status" : "passed",
+      "duration" : 55802,
+      "retries" : 0,
+      "error" : null,
+      "tags" : [ ],
+      "isNew" : true
+    }, {
+      "id" : "[engine:junit-jupiter]/[class:tests.signup.tests.agent.AgentSignupTest]/[method:verifySuccessfulAgentSignup()]",
+      "title" : "verifySuccessfulAgentSignup()",
+      "fullTitle" : "AgentSignupTest > verifySuccessfulAgentSignup()",
+      "file" : "AgentSignupTest.java",
+      "suite" : "AgentSignupTest",
+      "status" : "passed",
+      "duration" : 60706,
+      "retries" : 0,
+      "error" : null,
+      "tags" : [ ],
+      "isNew" : true
+    }, {
+      "id" : "[engine:junit-jupiter]/[class:tests.signup.tests.agent.AgentSignupTest]/[method:verifyPasswordInputValidation()]",
+      "title" : "verifyPasswordInputValidation()",
+      "fullTitle" : "AgentSignupTest > verifyPasswordInputValidation()",
+      "file" : "AgentSignupTest.java",
+      "suite" : "AgentSignupTest",
+      "status" : "passed",
+      "duration" : 33295,
+      "retries" : 0,
+      "error" : null,
+      "tags" : [ ],
+      "isNew" : true
+    } ]
   } ]
 }
