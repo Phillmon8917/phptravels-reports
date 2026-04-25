@@ -3840,5 +3840,45 @@
       "tags" : [ ],
       "isNew" : false
     } ]
+  }, {
+    "runId" : "24931409886",
+    "timestamp" : "2026-04-25T12:59:28.997Z",
+    "date" : "2026-04-25",
+    "month" : "2026-04",
+    "branch" : "bugfix/pipeline-timout-exception",
+    "commitSha" : "f173589",
+    "environment" : "develop",
+    "totalTests" : 2,
+    "passed" : 2,
+    "failed" : 0,
+    "skipped" : 0,
+    "timedOut" : 0,
+    "duration" : 73379,
+    "newTests" : 2,
+    "tests" : [ {
+      "id" : "[engine:junit-jupiter]/[class:tests.signup.tests.customer.CustomerSignupTest]/[method:verifyEmailInputValidation()]",
+      "title" : "verifyEmailInputValidation()",
+      "fullTitle" : "CustomerSignupTest > verifyEmailInputValidation()",
+      "file" : "CustomerSignupTest.java",
+      "suite" : "CustomerSignupTest",
+      "status" : "passed",
+      "duration" : 34552,
+      "retries" : 0,
+      "error" : null,
+      "tags" : [ ],
+      "isNew" : true
+    }, {
+      "id" : "[engine:junit-jupiter]/[class:tests.signup.tests.customer.CustomerSignupTest]/[method:verifySuccessfulCustomerSignup()]",
+      "title" : "verifySuccessfulCustomerSignup()",
+      "fullTitle" : "CustomerSignupTest > verifySuccessfulCustomerSignup()",
+      "file" : "CustomerSignupTest.java",
+      "suite" : "CustomerSignupTest",
+      "status" : "passed",
+      "duration" : 36102,
+      "retries" : 0,
+      "error" : null,
+      "tags" : [ ],
+      "isNew" : true
+    } ]
   } ]
 }
