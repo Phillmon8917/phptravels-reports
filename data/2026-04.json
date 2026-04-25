@@ -3728,5 +3728,117 @@
       "tags" : [ ],
       "isNew" : true
     } ]
+  }, {
+    "runId" : "24931053821",
+    "timestamp" : "2026-04-25T12:39:56.641Z",
+    "date" : "2026-04-25",
+    "month" : "2026-04",
+    "branch" : "bugfix/pipeline-timout-exception",
+    "commitSha" : "3e7d917",
+    "environment" : "develop",
+    "totalTests" : 8,
+    "passed" : 8,
+    "failed" : 0,
+    "skipped" : 0,
+    "timedOut" : 0,
+    "duration" : 115408,
+    "newTests" : 0,
+    "tests" : [ {
+      "id" : "[engine:junit-jupiter]/[class:tests.home.HomePageTest]/[method:verifyLanguageChange()]",
+      "title" : "verifyLanguageChange()",
+      "fullTitle" : "HomePageTest > verifyLanguageChange()",
+      "file" : "HomePageTest.java",
+      "suite" : "HomePageTest",
+      "status" : "passed",
+      "duration" : 31865,
+      "retries" : 0,
+      "error" : null,
+      "tags" : [ ],
+      "isNew" : false
+    }, {
+      "id" : "[engine:junit-jupiter]/[class:tests.home.HomePageTest]/[method:verifyNavigationToToursBookingPage()]",
+      "title" : "verifyNavigationToToursBookingPage()",
+      "fullTitle" : "HomePageTest > verifyNavigationToToursBookingPage()",
+      "file" : "HomePageTest.java",
+      "suite" : "HomePageTest",
+      "status" : "passed",
+      "duration" : 33287,
+      "retries" : 0,
+      "error" : null,
+      "tags" : [ ],
+      "isNew" : false
+    }, {
+      "id" : "[engine:junit-jupiter]/[class:tests.home.HomePageTest]/[method:verifyHeaderNavigationLinksArePresent()]",
+      "title" : "verifyHeaderNavigationLinksArePresent()",
+      "fullTitle" : "HomePageTest > verifyHeaderNavigationLinksArePresent()",
+      "file" : "HomePageTest.java",
+      "suite" : "HomePageTest",
+      "status" : "passed",
+      "duration" : 42556,
+      "retries" : 0,
+      "error" : null,
+      "tags" : [ ],
+      "isNew" : false
+    }, {
+      "id" : "[engine:junit-jupiter]/[class:tests.home.HomePageTest]/[method:verifyDownloadAppSection()]",
+      "title" : "verifyDownloadAppSection()",
+      "fullTitle" : "HomePageTest > verifyDownloadAppSection()",
+      "file" : "HomePageTest.java",
+      "suite" : "HomePageTest",
+      "status" : "passed",
+      "duration" : 49027,
+      "retries" : 0,
+      "error" : null,
+      "tags" : [ ],
+      "isNew" : false
+    }, {
+      "id" : "[engine:junit-jupiter]/[class:tests.home.HomePageTest]/[method:verifyHomePageIsLoaded()]",
+      "title" : "verifyHomePageIsLoaded()",
+      "fullTitle" : "HomePageTest > verifyHomePageIsLoaded()",
+      "file" : "HomePageTest.java",
+      "suite" : "HomePageTest",
+      "status" : "passed",
+      "duration" : 40119,
+      "retries" : 0,
+      "error" : null,
+      "tags" : [ ],
+      "isNew" : false
+    }, {
+      "id" : "[engine:junit-jupiter]/[class:tests.home.HomePageTest]/[method:verifyNavigationToCarsBookingPage()]",
+      "title" : "verifyNavigationToCarsBookingPage()",
+      "fullTitle" : "HomePageTest > verifyNavigationToCarsBookingPage()",
+      "file" : "HomePageTest.java",
+      "suite" : "HomePageTest",
+      "status" : "passed",
+      "duration" : 30740,
+      "retries" : 0,
+      "error" : null,
+      "tags" : [ ],
+      "isNew" : false
+    }, {
+      "id" : "[engine:junit-jupiter]/[class:tests.home.HomePageTest]/[method:verifyNavigationToVisaBookingPage()]",
+      "title" : "verifyNavigationToVisaBookingPage()",
+      "fullTitle" : "HomePageTest > verifyNavigationToVisaBookingPage()",
+      "file" : "HomePageTest.java",
+      "suite" : "HomePageTest",
+      "status" : "passed",
+      "duration" : 30076,
+      "retries" : 0,
+      "error" : null,
+      "tags" : [ ],
+      "isNew" : false
+    }, {
+      "id" : "[engine:junit-jupiter]/[class:tests.home.HomePageTest]/[method:verifyNavigationToFlightBookingPage()]",
+      "title" : "verifyNavigationToFlightBookingPage()",
+      "fullTitle" : "HomePageTest > verifyNavigationToFlightBookingPage()",
+      "file" : "HomePageTest.java",
+      "suite" : "HomePageTest",
+      "status" : "passed",
+      "duration" : 25631,
+      "retries" : 0,
+      "error" : null,
+      "tags" : [ ],
+      "isNew" : false
+    } ]
   } ]
 }
