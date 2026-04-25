@@ -4560,5 +4560,45 @@
       "tags" : [ ],
       "isNew" : false
     } ]
+  }, {
+    "runId" : "24933967821",
+    "timestamp" : "2026-04-25T15:18:05.801Z",
+    "date" : "2026-04-25",
+    "month" : "2026-04",
+    "branch" : "10/merge",
+    "commitSha" : "82c5d15",
+    "environment" : "develop",
+    "totalTests" : 2,
+    "passed" : 2,
+    "failed" : 0,
+    "skipped" : 0,
+    "timedOut" : 0,
+    "duration" : 71891,
+    "newTests" : 0,
+    "tests" : [ {
+      "id" : "[engine:junit-jupiter]/[class:tests.signup.tests.customer.CustomerSignupTest]/[method:verifyEmailInputValidation()]",
+      "title" : "verifyEmailInputValidation()",
+      "fullTitle" : "CustomerSignupTest > verifyEmailInputValidation()",
+      "file" : "CustomerSignupTest.java",
+      "suite" : "CustomerSignupTest",
+      "status" : "passed",
+      "duration" : 34999,
+      "retries" : 0,
+      "error" : null,
+      "tags" : [ ],
+      "isNew" : false
+    }, {
+      "id" : "[engine:junit-jupiter]/[class:tests.signup.tests.customer.CustomerSignupTest]/[method:verifySuccessfulCustomerSignup()]",
+      "title" : "verifySuccessfulCustomerSignup()",
+      "fullTitle" : "CustomerSignupTest > verifySuccessfulCustomerSignup()",
+      "file" : "CustomerSignupTest.java",
+      "suite" : "CustomerSignupTest",
+      "status" : "passed",
+      "duration" : 35135,
+      "retries" : 0,
+      "error" : null,
+      "tags" : [ ],
+      "isNew" : false
+    } ]
   } ]
 }
