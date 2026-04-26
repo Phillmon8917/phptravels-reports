@@ -4600,5 +4600,93 @@
       "tags" : [ ],
       "isNew" : false
     } ]
+  }, {
+    "runId" : "24951499170",
+    "timestamp" : "2026-04-26T07:50:33.512Z",
+    "date" : "2026-04-26",
+    "month" : "2026-04",
+    "branch" : "main",
+    "commitSha" : "43b7bf6",
+    "environment" : "qa",
+    "totalTests" : 6,
+    "passed" : 6,
+    "failed" : 0,
+    "skipped" : 0,
+    "timedOut" : 0,
+    "duration" : 56073,
+    "newTests" : 4,
+    "tests" : [ {
+      "id" : "[engine:junit-jupiter]/[class:tests.signup.tests.customer.CustomerSignupTest]/[method:verifyLastNameInputValidation()]",
+      "title" : "verifyLastNameInputValidation()",
+      "fullTitle" : "CustomerSignupTest > verifyLastNameInputValidation()",
+      "file" : "CustomerSignupTest.java",
+      "suite" : "CustomerSignupTest",
+      "status" : "passed",
+      "duration" : 35916,
+      "retries" : 0,
+      "error" : null,
+      "tags" : [ ],
+      "isNew" : true
+    }, {
+      "id" : "[engine:junit-jupiter]/[class:tests.signup.tests.customer.CustomerSignupTest]/[method:verifyEmailInputValidation()]",
+      "title" : "verifyEmailInputValidation()",
+      "fullTitle" : "CustomerSignupTest > verifyEmailInputValidation()",
+      "file" : "CustomerSignupTest.java",
+      "suite" : "CustomerSignupTest",
+      "status" : "passed",
+      "duration" : 37553,
+      "retries" : 0,
+      "error" : null,
+      "tags" : [ ],
+      "isNew" : false
+    }, {
+      "id" : "[engine:junit-jupiter]/[class:tests.signup.tests.customer.CustomerSignupTest]/[method:verifyConfirmPasswordInputValidation()]",
+      "title" : "verifyConfirmPasswordInputValidation()",
+      "fullTitle" : "CustomerSignupTest > verifyConfirmPasswordInputValidation()",
+      "file" : "CustomerSignupTest.java",
+      "suite" : "CustomerSignupTest",
+      "status" : "passed",
+      "duration" : 37559,
+      "retries" : 0,
+      "error" : null,
+      "tags" : [ ],
+      "isNew" : true
+    }, {
+      "id" : "[engine:junit-jupiter]/[class:tests.signup.tests.customer.CustomerSignupTest]/[method:verifySuccessfulCustomerSignup()]",
+      "title" : "verifySuccessfulCustomerSignup()",
+      "fullTitle" : "CustomerSignupTest > verifySuccessfulCustomerSignup()",
+      "file" : "CustomerSignupTest.java",
+      "suite" : "CustomerSignupTest",
+      "status" : "passed",
+      "duration" : 42074,
+      "retries" : 0,
+      "error" : null,
+      "tags" : [ ],
+      "isNew" : false
+    }, {
+      "id" : "[engine:junit-jupiter]/[class:tests.signup.tests.customer.CustomerSignupTest]/[method:verifyPasswordInputValidation()]",
+      "title" : "verifyPasswordInputValidation()",
+      "fullTitle" : "CustomerSignupTest > verifyPasswordInputValidation()",
+      "file" : "CustomerSignupTest.java",
+      "suite" : "CustomerSignupTest",
+      "status" : "passed",
+      "duration" : 16988,
+      "retries" : 0,
+      "error" : null,
+      "tags" : [ ],
+      "isNew" : true
+    }, {
+      "id" : "[engine:junit-jupiter]/[class:tests.signup.tests.customer.CustomerSignupTest]/[method:verifyFirstNameInputValidation()]",
+      "title" : "verifyFirstNameInputValidation()",
+      "fullTitle" : "CustomerSignupTest > verifyFirstNameInputValidation()",
+      "file" : "CustomerSignupTest.java",
+      "suite" : "CustomerSignupTest",
+      "status" : "passed",
+      "duration" : 16580,
+      "retries" : 0,
+      "error" : null,
+      "tags" : [ ],
+      "isNew" : true
+    } ]
   } ]
 }
