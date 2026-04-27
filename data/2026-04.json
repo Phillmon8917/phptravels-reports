@@ -4345,6 +4345,120 @@
           "isNew": false
         }
       ]
+    },
+    {
+      "runId": "24983560340",
+      "timestamp": "2026-04-27T08:05:22.796Z",
+      "date": "2026-04-27",
+      "month": "2026-04",
+      "branch": "qa",
+      "commitSha": "9530109",
+      "environment": "qa",
+      "totalTests": 8,
+      "passed": 8,
+      "failed": 0,
+      "skipped": 0,
+      "timedOut": 0,
+      "duration": 43080,
+      "newTests": 0,
+      "tests": [
+        {
+          "id": "4a9efd0c7e3d35a97a8d-95ff82b405f95853d942",
+          "title": "Should navigate to how to file a claim page",
+          "fullTitle": " > guest > home/home.spec.ts > Home Page @regression @guest > Should navigate to how to file a claim page",
+          "file": "/home/runner/work/playwright-framework/playwright-framework/src/tests/home/home.spec.ts",
+          "suite": "Home Page @regression @guest",
+          "status": "passed",
+          "duration": 15349,
+          "retries": 0,
+          "tags": [],
+          "isNew": false
+        },
+        {
+          "id": "4a9efd0c7e3d35a97a8d-acad507f0a2680f1ad0c",
+          "title": "Should navigate to refund policy page",
+          "fullTitle": " > guest > home/home.spec.ts > Home Page @regression @guest > Should navigate to refund policy page",
+          "file": "/home/runner/work/playwright-framework/playwright-framework/src/tests/home/home.spec.ts",
+          "suite": "Home Page @regression @guest",
+          "status": "passed",
+          "duration": 16040,
+          "retries": 0,
+          "tags": [],
+          "isNew": false
+        },
+        {
+          "id": "4a9efd0c7e3d35a97a8d-6c056c16ec120ce4ef9e",
+          "title": "Should navigate to best travel deals page",
+          "fullTitle": " > guest > home/home.spec.ts > Home Page @regression @guest > Should navigate to best travel deals page",
+          "file": "/home/runner/work/playwright-framework/playwright-framework/src/tests/home/home.spec.ts",
+          "suite": "Home Page @regression @guest",
+          "status": "passed",
+          "duration": 16171,
+          "retries": 0,
+          "tags": [],
+          "isNew": false
+        },
+        {
+          "id": "4a9efd0c7e3d35a97a8d-a94b7ace52af1230c50d",
+          "title": "Should navigate to travel insurance page",
+          "fullTitle": " > guest > home/home.spec.ts > Home Page @regression @guest > Should navigate to travel insurance page",
+          "file": "/home/runner/work/playwright-framework/playwright-framework/src/tests/home/home.spec.ts",
+          "suite": "Home Page @regression @guest",
+          "status": "passed",
+          "duration": 14362,
+          "retries": 0,
+          "tags": [],
+          "isNew": false
+        },
+        {
+          "id": "4a9efd0c7e3d35a97a8d-3d0772bf5baafb073cd6",
+          "title": "Should navigate to disruptions page",
+          "fullTitle": " > guest > home/home.spec.ts > Home Page @regression @guest > Should navigate to disruptions page",
+          "file": "/home/runner/work/playwright-framework/playwright-framework/src/tests/home/home.spec.ts",
+          "suite": "Home Page @regression @guest",
+          "status": "passed",
+          "duration": 14361,
+          "retries": 0,
+          "tags": [],
+          "isNew": false
+        },
+        {
+          "id": "4a9efd0c7e3d35a97a8d-25545649e0a8a51c0d56",
+          "title": "Should navigate to travel documents page",
+          "fullTitle": " > guest > home/home.spec.ts > Home Page @regression @guest > Should navigate to travel documents page",
+          "file": "/home/runner/work/playwright-framework/playwright-framework/src/tests/home/home.spec.ts",
+          "suite": "Home Page @regression @guest",
+          "status": "passed",
+          "duration": 15336,
+          "retries": 0,
+          "tags": [],
+          "isNew": false
+        },
+        {
+          "id": "4a9efd0c7e3d35a97a8d-5060ff7f7cc865384a3b",
+          "title": "Should navigate to FAQ page",
+          "fullTitle": " > guest > home/home.spec.ts > Home Page @regression @guest > Should navigate to FAQ page",
+          "file": "/home/runner/work/playwright-framework/playwright-framework/src/tests/home/home.spec.ts",
+          "suite": "Home Page @regression @guest",
+          "status": "passed",
+          "duration": 9344,
+          "retries": 0,
+          "tags": [],
+          "isNew": false
+        },
+        {
+          "id": "4a9efd0c7e3d35a97a8d-f3109d59e2e5ad05554c",
+          "title": "Should navigate to accessibility page",
+          "fullTitle": " > guest > home/home.spec.ts > Home Page @regression @guest > Should navigate to accessibility page",
+          "file": "/home/runner/work/playwright-framework/playwright-framework/src/tests/home/home.spec.ts",
+          "suite": "Home Page @regression @guest",
+          "status": "passed",
+          "duration": 9564,
+          "retries": 0,
+          "tags": [],
+          "isNew": false
+        }
+      ]
     }
   ]
 }
