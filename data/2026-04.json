@@ -4117,6 +4117,120 @@
           "isNew": false
         }
       ]
+    },
+    {
+      "runId": "24983560340",
+      "timestamp": "2026-04-27T08:05:10.693Z",
+      "date": "2026-04-27",
+      "month": "2026-04",
+      "branch": "qa",
+      "commitSha": "9530109",
+      "environment": "qa",
+      "totalTests": 8,
+      "passed": 8,
+      "failed": 0,
+      "skipped": 0,
+      "timedOut": 0,
+      "duration": 46921,
+      "newTests": 0,
+      "tests": [
+        {
+          "id": "4a9efd0c7e3d35a97a8d-7a129ec1cfe32db4c9ca",
+          "title": "Should verify navigation to customer signup page",
+          "fullTitle": " > guest > home/home.spec.ts > Home Page @regression @guest > Should verify navigation to customer signup page",
+          "file": "/home/runner/work/playwright-framework/playwright-framework/src/tests/home/home.spec.ts",
+          "suite": "Home Page @regression @guest",
+          "status": "passed",
+          "duration": 16101,
+          "retries": 0,
+          "tags": [],
+          "isNew": false
+        },
+        {
+          "id": "4a9efd0c7e3d35a97a8d-6f9c534cf359f6d09e22",
+          "title": "Should verify navigation to agent signup page",
+          "fullTitle": " > guest > home/home.spec.ts > Home Page @regression @guest > Should verify navigation to agent signup page",
+          "file": "/home/runner/work/playwright-framework/playwright-framework/src/tests/home/home.spec.ts",
+          "suite": "Home Page @regression @guest",
+          "status": "passed",
+          "duration": 19377,
+          "retries": 0,
+          "tags": [],
+          "isNew": false
+        },
+        {
+          "id": "4a9efd0c7e3d35a97a8d-929d98da3adcf28ad6ea",
+          "title": "Should verify all quick search tabs are visible",
+          "fullTitle": " > guest > home/home.spec.ts > Home Page @regression @guest > Should verify all quick search tabs are visible",
+          "file": "/home/runner/work/playwright-framework/playwright-framework/src/tests/home/home.spec.ts",
+          "suite": "Home Page @regression @guest",
+          "status": "passed",
+          "duration": 21360,
+          "retries": 0,
+          "tags": [],
+          "isNew": false
+        },
+        {
+          "id": "4a9efd0c7e3d35a97a8d-3ca007193b817e3d5bf4",
+          "title": "Should verify navigation to download app page",
+          "fullTitle": " > guest > home/home.spec.ts > Home Page @regression @guest > Should verify navigation to download app page",
+          "file": "/home/runner/work/playwright-framework/playwright-framework/src/tests/home/home.spec.ts",
+          "suite": "Home Page @regression @guest",
+          "status": "passed",
+          "duration": 16822,
+          "retries": 0,
+          "tags": [],
+          "isNew": false
+        },
+        {
+          "id": "4a9efd0c7e3d35a97a8d-51a6c8330316673c19b2",
+          "title": "Should navigate to affiliate program page",
+          "fullTitle": " > guest > home/home.spec.ts > Home Page @regression @guest > Should navigate to affiliate program page",
+          "file": "/home/runner/work/playwright-framework/playwright-framework/src/tests/home/home.spec.ts",
+          "suite": "Home Page @regression @guest",
+          "status": "passed",
+          "duration": 15246,
+          "retries": 0,
+          "tags": [],
+          "isNew": false
+        },
+        {
+          "id": "4a9efd0c7e3d35a97a8d-19752c0d2dc8e747776b",
+          "title": "Should navigate to investors page",
+          "fullTitle": " > guest > home/home.spec.ts > Home Page @regression @guest > Should navigate to investors page",
+          "file": "/home/runner/work/playwright-framework/playwright-framework/src/tests/home/home.spec.ts",
+          "suite": "Home Page @regression @guest",
+          "status": "passed",
+          "duration": 15245,
+          "retries": 0,
+          "tags": [],
+          "isNew": false
+        },
+        {
+          "id": "4a9efd0c7e3d35a97a8d-0a610825fb49269db1b7",
+          "title": "Should navigate to careers page",
+          "fullTitle": " > guest > home/home.spec.ts > Home Page @regression @guest > Should navigate to careers page",
+          "file": "/home/runner/work/playwright-framework/playwright-framework/src/tests/home/home.spec.ts",
+          "suite": "Home Page @regression @guest",
+          "status": "passed",
+          "duration": 10351,
+          "retries": 0,
+          "tags": [],
+          "isNew": false
+        },
+        {
+          "id": "4a9efd0c7e3d35a97a8d-b112e537cba62c5fcd69",
+          "title": "Should navigate to how to book page",
+          "fullTitle": " > guest > home/home.spec.ts > Home Page @regression @guest > Should navigate to how to book page",
+          "file": "/home/runner/work/playwright-framework/playwright-framework/src/tests/home/home.spec.ts",
+          "suite": "Home Page @regression @guest",
+          "status": "passed",
+          "duration": 9172,
+          "retries": 0,
+          "tags": [],
+          "isNew": false
+        }
+      ]
     }
   ]
 }
