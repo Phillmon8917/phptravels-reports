@@ -5840,5 +5840,93 @@
       "tags" : [ ],
       "isNew" : false
     } ]
+  }, {
+    "runId" : "25093895374",
+    "timestamp" : "2026-04-29T06:20:41.438Z",
+    "date" : "2026-04-29",
+    "month" : "2026-04",
+    "branch" : "main",
+    "commitSha" : "9aa98e6",
+    "environment" : "qa",
+    "totalTests" : 6,
+    "passed" : 6,
+    "failed" : 0,
+    "skipped" : 0,
+    "timedOut" : 0,
+    "duration" : 59650,
+    "newTests" : 2,
+    "tests" : [ {
+      "id" : "[engine:junit-jupiter]/[class:tests.signup.tests.agent.AgentSignupTest]/[method:verifyLastNameInputValidation()]",
+      "title" : "verifyLastNameInputValidation()",
+      "fullTitle" : "AgentSignupTest > verifyLastNameInputValidation()",
+      "file" : "AgentSignupTest.java",
+      "suite" : "AgentSignupTest",
+      "status" : "passed",
+      "duration" : 39091,
+      "retries" : 0,
+      "error" : null,
+      "tags" : [ ],
+      "isNew" : true
+    }, {
+      "id" : "[engine:junit-jupiter]/[class:tests.signup.tests.agent.AgentSignupTest]/[method:verifyConfirmPasswordInputValidation()]",
+      "title" : "verifyConfirmPasswordInputValidation()",
+      "fullTitle" : "AgentSignupTest > verifyConfirmPasswordInputValidation()",
+      "file" : "AgentSignupTest.java",
+      "suite" : "AgentSignupTest",
+      "status" : "passed",
+      "duration" : 40430,
+      "retries" : 0,
+      "error" : null,
+      "tags" : [ ],
+      "isNew" : false
+    }, {
+      "id" : "[engine:junit-jupiter]/[class:tests.signup.tests.agent.AgentSignupTest]/[method:verifyEmailInputValidation()]",
+      "title" : "verifyEmailInputValidation()",
+      "fullTitle" : "AgentSignupTest > verifyEmailInputValidation()",
+      "file" : "AgentSignupTest.java",
+      "suite" : "AgentSignupTest",
+      "status" : "passed",
+      "duration" : 40727,
+      "retries" : 0,
+      "error" : null,
+      "tags" : [ ],
+      "isNew" : true
+    }, {
+      "id" : "[engine:junit-jupiter]/[class:tests.signup.tests.agent.AgentSignupTest]/[method:verifySuccessfulAgentSignup()]",
+      "title" : "verifySuccessfulAgentSignup()",
+      "fullTitle" : "AgentSignupTest > verifySuccessfulAgentSignup()",
+      "file" : "AgentSignupTest.java",
+      "suite" : "AgentSignupTest",
+      "status" : "passed",
+      "duration" : 42484,
+      "retries" : 0,
+      "error" : null,
+      "tags" : [ ],
+      "isNew" : false
+    }, {
+      "id" : "[engine:junit-jupiter]/[class:tests.signup.tests.agent.AgentSignupTest]/[method:verifyPasswordInputValidation()]",
+      "title" : "verifyPasswordInputValidation()",
+      "fullTitle" : "AgentSignupTest > verifyPasswordInputValidation()",
+      "file" : "AgentSignupTest.java",
+      "suite" : "AgentSignupTest",
+      "status" : "passed",
+      "duration" : 17868,
+      "retries" : 0,
+      "error" : null,
+      "tags" : [ ],
+      "isNew" : false
+    }, {
+      "id" : "[engine:junit-jupiter]/[class:tests.signup.tests.agent.AgentSignupTest]/[method:verifyFirstNameInputValidation()]",
+      "title" : "verifyFirstNameInputValidation()",
+      "fullTitle" : "AgentSignupTest > verifyFirstNameInputValidation()",
+      "file" : "AgentSignupTest.java",
+      "suite" : "AgentSignupTest",
+      "status" : "passed",
+      "duration" : 17416,
+      "retries" : 0,
+      "error" : null,
+      "tags" : [ ],
+      "isNew" : false
+    } ]
   } ]
 }
