@@ -6283,6 +6283,120 @@
           "isNew": false
         }
       ]
+    },
+    {
+      "runId": "25154343785",
+      "timestamp": "2026-04-30T08:03:21.664Z",
+      "date": "2026-04-30",
+      "month": "2026-04",
+      "branch": "qa",
+      "commitSha": "9530109",
+      "environment": "qa",
+      "totalTests": 8,
+      "passed": 8,
+      "failed": 0,
+      "skipped": 0,
+      "timedOut": 0,
+      "duration": 53170,
+      "newTests": 0,
+      "tests": [
+        {
+          "id": "38b9dab6411331d87e46-2e6800cf31df576e05f3",
+          "title": "Verify firstName input validation",
+          "fullTitle": " > guest > customerSignUp/customerSignup.spec.ts > Customer Signup Page @regression @guest > Verify firstName input validation",
+          "file": "/home/runner/work/playwright-framework/playwright-framework/src/tests/customerSignUp/customerSignup.spec.ts",
+          "suite": "Customer Signup Page @regression @guest",
+          "status": "passed",
+          "duration": 19262,
+          "retries": 0,
+          "tags": [],
+          "isNew": false
+        },
+        {
+          "id": "d8ded18deb5ac2c00e94-9bff6235db6cae584b6b",
+          "title": "Verify confirm password input validation",
+          "fullTitle": " > guest > agentSignup/agentSignUp.spec.ts > Agent Signup Page @regression @guest > Verify confirm password input validation",
+          "file": "/home/runner/work/playwright-framework/playwright-framework/src/tests/agentSignup/agentSignUp.spec.ts",
+          "suite": "Agent Signup Page @regression @guest",
+          "status": "passed",
+          "duration": 21045,
+          "retries": 0,
+          "tags": [],
+          "isNew": false
+        },
+        {
+          "id": "38b9dab6411331d87e46-b193a9c92a836b646bcb",
+          "title": "Verify successful customer signup",
+          "fullTitle": " > guest > customerSignUp/customerSignup.spec.ts > Customer Signup Page @regression @guest > Verify successful customer signup",
+          "file": "/home/runner/work/playwright-framework/playwright-framework/src/tests/customerSignUp/customerSignup.spec.ts",
+          "suite": "Customer Signup Page @regression @guest",
+          "status": "passed",
+          "duration": 26900,
+          "retries": 0,
+          "tags": [],
+          "isNew": false
+        },
+        {
+          "id": "38b9dab6411331d87e46-3fd49bffe013987a8c06",
+          "title": "Verify lastName input validation",
+          "fullTitle": " > guest > customerSignUp/customerSignup.spec.ts > Customer Signup Page @regression @guest > Verify lastName input validation",
+          "file": "/home/runner/work/playwright-framework/playwright-framework/src/tests/customerSignUp/customerSignup.spec.ts",
+          "suite": "Customer Signup Page @regression @guest",
+          "status": "passed",
+          "duration": 17024,
+          "retries": 0,
+          "tags": [],
+          "isNew": false
+        },
+        {
+          "id": "38b9dab6411331d87e46-a0690ab13aece3db546f",
+          "title": "Verify email input validation",
+          "fullTitle": " > guest > customerSignUp/customerSignup.spec.ts > Customer Signup Page @regression @guest > Verify email input validation",
+          "file": "/home/runner/work/playwright-framework/playwright-framework/src/tests/customerSignUp/customerSignup.spec.ts",
+          "suite": "Customer Signup Page @regression @guest",
+          "status": "passed",
+          "duration": 18941,
+          "retries": 0,
+          "tags": [],
+          "isNew": false
+        },
+        {
+          "id": "38b9dab6411331d87e46-05f59f1aa95b7561ca5e",
+          "title": "Verify password input validation",
+          "fullTitle": " > guest > customerSignUp/customerSignup.spec.ts > Customer Signup Page @regression @guest > Verify password input validation",
+          "file": "/home/runner/work/playwright-framework/playwright-framework/src/tests/customerSignUp/customerSignup.spec.ts",
+          "suite": "Customer Signup Page @regression @guest",
+          "status": "passed",
+          "duration": 16677,
+          "retries": 0,
+          "tags": [],
+          "isNew": false
+        },
+        {
+          "id": "4a9efd0c7e3d35a97a8d-7df0441048deb6cf7fac",
+          "title": "Verify Home Page is loaded",
+          "fullTitle": " > guest > home/home.spec.ts > Home Page @regression @guest > Verify Home Page is loaded",
+          "file": "/home/runner/work/playwright-framework/playwright-framework/src/tests/home/home.spec.ts",
+          "suite": "Home Page @regression @guest",
+          "status": "passed",
+          "duration": 8878,
+          "retries": 0,
+          "tags": [],
+          "isNew": false
+        },
+        {
+          "id": "38b9dab6411331d87e46-4682168bfcd37070e3be",
+          "title": "Verify confirm password input validation",
+          "fullTitle": " > guest > customerSignUp/customerSignup.spec.ts > Customer Signup Page @regression @guest > Verify confirm password input validation",
+          "file": "/home/runner/work/playwright-framework/playwright-framework/src/tests/customerSignUp/customerSignup.spec.ts",
+          "suite": "Customer Signup Page @regression @guest",
+          "status": "passed",
+          "duration": 13318,
+          "retries": 0,
+          "tags": [],
+          "isNew": false
+        }
+      ]
     }
   ]
 }
