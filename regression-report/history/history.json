@@ -1,0 +1,1 @@
+{"ec6718f1fa3cecb867b27cc8c911cf81":{"statistic":{"failed":0,"broken":1,"skipped":0,"passed":0,"unknown":0,"total":1},"items":[{"uid":"2f97e9ca2d88658c","status":"broken","statusDetails":"Suite [runner.AuthRunner] did not discover any tests","time":{"start":1778136424600,"stop":1778136424601,"duration":1}}]}}
