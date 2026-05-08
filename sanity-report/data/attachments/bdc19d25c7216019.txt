@@ -1,0 +1,26 @@
+[2026-05-08 09:28:56] [INFO] Starting scenario: Successful agent signup
+[2026-05-08 09:28:56] [INFO] [ENV] Found in .env → BASE_URL
+[2026-05-08 09:28:56] [INFO] [ENV] Found in .env → ACTION_TIMEOUT
+[2026-05-08 09:28:56] [INFO] [ENV] Found in .env → NAVIGATION_TIMEOUT
+[2026-05-08 09:29:05] [INFO] loadThePage - Loader disappeared (hidden or detached)
+[2026-05-08 09:29:06] [INFO] verifyNavigationToAgentSignupPage - Successfully hovered over Signup
+[2026-05-08 09:29:07] [INFO] verifyNavigationToAgentSignupPage - Successfully clicked Agent Signup
+[2026-05-08 09:29:07] [INFO] verifyNavigationToAgentSignupPage - Agent Signup Page matched with status 200 and method GET
+[2026-05-08 09:29:08] [INFO] verifyNavigationToAgentSignupPage - Successfully JS-clicked Agent Signup Link
+[2026-05-08 09:29:09] [INFO] verifyNavigationToAgentSignupPage - Agent Signup Page matched with status 200 and method GET
+[2026-05-08 09:29:09] [INFO] verifyNavigationToAgentSignupPage - Agent Registration Header is visible
+[2026-05-08 09:29:09] [INFO] Agent Signup Page is opened successfully
+[2026-05-08 09:29:09] [INFO] extractSecurityCheckQuestion - Successfully retrieved text from Security Check Question
+[2026-05-08 09:29:09] [INFO] Security check question is: 
+                Security Check: What is twenty-four minus twenty-two? *
+            
+[2026-05-08 09:29:09] [INFO] Security question solved: 24 subtract 22 = 2
+[2026-05-08 09:29:09] [INFO] Security check answer is: 2
+[2026-05-08 09:29:09] [INFO] fillFirstNameInput - Successfully filled First Name with value: Elnora
+[2026-05-08 09:29:10] [INFO] fillLastNameInput - Successfully filled Last Name with value: Smith
+[2026-05-08 09:29:10] [INFO] fillEmailInput - Successfully filled Email with value: *************************
+[2026-05-08 09:29:10] [INFO] fillPasswordInput - Successfully filled Password with value: ***********
+[2026-05-08 09:29:11] [INFO] fillConfirmPasswordInput - Successfully filled Confirm Password with value: ***********
+[2026-05-08 09:29:11] [INFO] fillSecurityCheckAnswerInput - Successfully filled Security Check Answer with value: 2
+[2026-05-08 09:29:11] [INFO] agreeToTerms - Successfully JS-clicked Agree to Terms
+[2026-05-08 09:29:11] [INFO] clickCreateAccountButton - Successfully JS-clicked Create Account
