@@ -1,0 +1,24 @@
+[2026-05-08 08:57:03] [INFO] Starting scenario: Successful admin login and session storage
+[2026-05-08 08:57:05] [INFO] [ENV] Found in .env → CI
+[2026-05-08 08:57:06] [INFO] [ENV] Found in .env → BASE_URL
+[2026-05-08 08:57:06] [INFO] [ENV] Found in .env → ACTION_TIMEOUT
+[2026-05-08 08:57:06] [INFO] [ENV] Found in .env → NAVIGATION_TIMEOUT
+[2026-05-08 08:57:06] [INFO] Deleted storage state for: admin
+[2026-05-08 08:57:21] [INFO] [ENV] Found in .env → CI
+[2026-05-08 08:57:22] [INFO] loadThePage - Loader disappeared (hidden or detached)
+[2026-05-08 08:57:22] [INFO] verifyNavigationToLoginPage - Successfully JS-clicked Login
+[2026-05-08 08:57:23] [INFO] verifyNavigationToLoginPage - Login Page matched with status 200 and method GET
+[2026-05-08 08:57:27] [INFO] verifyNavigationToLoginPage - Loader disappeared (hidden or detached)
+[2026-05-08 08:57:27] [INFO] verifyNavigationToLoginPage - Sign In To Your Account Button is visible
+[2026-05-08 08:57:27] [INFO] Login Page is opened successfully
+[2026-05-08 08:57:27] [INFO] [ENV] Found in .env → ADMIN_USERNAME
+[2026-05-08 08:57:27] [INFO] [ENV] Found in .env → ADMIN_PASSWORD
+[2026-05-08 08:57:27] [INFO] fillEmailInput - Successfully filled Email with value: ********************
+[2026-05-08 08:57:27] [INFO] fillPasswordInput - Successfully filled Password with value: *********
+[2026-05-08 08:57:27] [INFO] toggleRememberMe - Successfully JS-clicked Toggle Remember Me
+[2026-05-08 08:57:27] [INFO] clickLoginButton - Successfully JS-clicked Login
+[2026-05-08 08:57:28] [INFO] login - Loader was not present, continuing
+[2026-05-08 08:57:29] [INFO] verifySuccessfulLogin - Dashboard Header is visible
+[2026-05-08 08:57:29] [INFO] Login successful
+[2026-05-08 08:57:29] [INFO] Admin session saved to: storage/admin.json
+[2026-05-08 08:57:29] [INFO] Login verified as successful
