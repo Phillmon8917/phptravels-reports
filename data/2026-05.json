@@ -4902,6 +4902,159 @@
           "isNew": false
         }
       ]
+    },
+    {
+      "runId": "25595371698",
+      "timestamp": "2026-05-09T07:33:28.200Z",
+      "date": "2026-05-09",
+      "month": "2026-05",
+      "branch": "qa",
+      "commitSha": "9530109",
+      "environment": "qa",
+      "totalTests": 11,
+      "passed": 8,
+      "failed": 3,
+      "skipped": 0,
+      "timedOut": 0,
+      "duration": 120009,
+      "newTests": 0,
+      "tests": [
+        {
+          "id": "4a9efd0c7e3d35a97a8d-7a129ec1cfe32db4c9ca",
+          "title": "Should verify navigation to customer signup page",
+          "fullTitle": " > guest > home/home.spec.ts > Home Page @regression @guest > Should verify navigation to customer signup page",
+          "file": "/home/runner/work/playwright-framework/playwright-framework/src/tests/home/home.spec.ts",
+          "suite": "Home Page @regression @guest",
+          "status": "failed",
+          "duration": 57141,
+          "retries": 0,
+          "error": "TimeoutError: page.waitForResponse: Timeout 30000ms exceeded while waiting for event \"response\"",
+          "tags": [],
+          "isNew": false
+        },
+        {
+          "id": "4a9efd0c7e3d35a97a8d-6f9c534cf359f6d09e22",
+          "title": "Should verify navigation to agent signup page",
+          "fullTitle": " > guest > home/home.spec.ts > Home Page @regression @guest > Should verify navigation to agent signup page",
+          "file": "/home/runner/work/playwright-framework/playwright-framework/src/tests/home/home.spec.ts",
+          "suite": "Home Page @regression @guest",
+          "status": "passed",
+          "duration": 63015,
+          "retries": 0,
+          "tags": [],
+          "isNew": false
+        },
+        {
+          "id": "4a9efd0c7e3d35a97a8d-7a129ec1cfe32db4c9ca",
+          "title": "Should verify navigation to customer signup page",
+          "fullTitle": " > guest > home/home.spec.ts > Home Page @regression @guest > Should verify navigation to customer signup page",
+          "file": "/home/runner/work/playwright-framework/playwright-framework/src/tests/home/home.spec.ts",
+          "suite": "Home Page @regression @guest",
+          "status": "passed",
+          "duration": 10776,
+          "retries": 1,
+          "tags": [],
+          "isNew": false
+        },
+        {
+          "id": "4a9efd0c7e3d35a97a8d-3ca007193b817e3d5bf4",
+          "title": "Should verify navigation to download app page",
+          "fullTitle": " > guest > home/home.spec.ts > Home Page @regression @guest > Should verify navigation to download app page",
+          "file": "/home/runner/work/playwright-framework/playwright-framework/src/tests/home/home.spec.ts",
+          "suite": "Home Page @regression @guest",
+          "status": "passed",
+          "duration": 10987,
+          "retries": 0,
+          "tags": [],
+          "isNew": false
+        },
+        {
+          "id": "4a9efd0c7e3d35a97a8d-929d98da3adcf28ad6ea",
+          "title": "Should verify all quick search tabs are visible",
+          "fullTitle": " > guest > home/home.spec.ts > Home Page @regression @guest > Should verify all quick search tabs are visible",
+          "file": "/home/runner/work/playwright-framework/playwright-framework/src/tests/home/home.spec.ts",
+          "suite": "Home Page @regression @guest",
+          "status": "failed",
+          "duration": 78346,
+          "retries": 0,
+          "error": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('button', { name: /Check Visa|Searching/i })\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('button', { name: /Check Visa|Searching/i })\u001b[22m\n",
+          "tags": [],
+          "isNew": false
+        },
+        {
+          "id": "4a9efd0c7e3d35a97a8d-19752c0d2dc8e747776b",
+          "title": "Should navigate to investors page",
+          "fullTitle": " > guest > home/home.spec.ts > Home Page @regression @guest > Should navigate to investors page",
+          "file": "/home/runner/work/playwright-framework/playwright-framework/src/tests/home/home.spec.ts",
+          "suite": "Home Page @regression @guest",
+          "status": "passed",
+          "duration": 11546,
+          "retries": 0,
+          "tags": [],
+          "isNew": false
+        },
+        {
+          "id": "4a9efd0c7e3d35a97a8d-51a6c8330316673c19b2",
+          "title": "Should navigate to affiliate program page",
+          "fullTitle": " > guest > home/home.spec.ts > Home Page @regression @guest > Should navigate to affiliate program page",
+          "file": "/home/runner/work/playwright-framework/playwright-framework/src/tests/home/home.spec.ts",
+          "suite": "Home Page @regression @guest",
+          "status": "passed",
+          "duration": 13626,
+          "retries": 0,
+          "tags": [],
+          "isNew": false
+        },
+        {
+          "id": "4a9efd0c7e3d35a97a8d-0a610825fb49269db1b7",
+          "title": "Should navigate to careers page",
+          "fullTitle": " > guest > home/home.spec.ts > Home Page @regression @guest > Should navigate to careers page",
+          "file": "/home/runner/work/playwright-framework/playwright-framework/src/tests/home/home.spec.ts",
+          "suite": "Home Page @regression @guest",
+          "status": "passed",
+          "duration": 11243,
+          "retries": 0,
+          "tags": [],
+          "isNew": false
+        },
+        {
+          "id": "4a9efd0c7e3d35a97a8d-b112e537cba62c5fcd69",
+          "title": "Should navigate to how to book page",
+          "fullTitle": " > guest > home/home.spec.ts > Home Page @regression @guest > Should navigate to how to book page",
+          "file": "/home/runner/work/playwright-framework/playwright-framework/src/tests/home/home.spec.ts",
+          "suite": "Home Page @regression @guest",
+          "status": "passed",
+          "duration": 11285,
+          "retries": 0,
+          "tags": [],
+          "isNew": false
+        },
+        {
+          "id": "4a9efd0c7e3d35a97a8d-929d98da3adcf28ad6ea",
+          "title": "Should verify all quick search tabs are visible",
+          "fullTitle": " > guest > home/home.spec.ts > Home Page @regression @guest > Should verify all quick search tabs are visible",
+          "file": "/home/runner/work/playwright-framework/playwright-framework/src/tests/home/home.spec.ts",
+          "suite": "Home Page @regression @guest",
+          "status": "failed",
+          "duration": 22874,
+          "retries": 1,
+          "error": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('button', { name: /Check Visa|Searching/i })\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('button', { name: /Check Visa|Searching/i })\u001b[22m\n",
+          "tags": [],
+          "isNew": false
+        },
+        {
+          "id": "4a9efd0c7e3d35a97a8d-929d98da3adcf28ad6ea",
+          "title": "Should verify all quick search tabs are visible",
+          "fullTitle": " > guest > home/home.spec.ts > Home Page @regression @guest > Should verify all quick search tabs are visible",
+          "file": "/home/runner/work/playwright-framework/playwright-framework/src/tests/home/home.spec.ts",
+          "suite": "Home Page @regression @guest",
+          "status": "passed",
+          "duration": 8582,
+          "retries": 2,
+          "tags": [],
+          "isNew": false
+        }
+      ]
     }
   ]
 }
