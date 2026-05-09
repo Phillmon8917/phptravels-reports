@@ -1,0 +1,22 @@
+[2026-05-09 13:19:36] [INFO] Starting scenario: Successful customer login and session storage
+[2026-05-09 13:19:39] [INFO] [ENV] Found in .env → BASE_URL
+[2026-05-09 13:19:39] [INFO] [ENV] Found in .env → ACTION_TIMEOUT
+[2026-05-09 13:19:39] [INFO] [ENV] Found in .env → NAVIGATION_TIMEOUT
+[2026-05-09 13:19:39] [INFO] Deleted storage state for: customer
+[2026-05-09 13:19:54] [INFO] loadThePage - Loader disappeared (hidden or detached)
+[2026-05-09 13:19:55] [INFO] verifyNavigationToLoginPage - Successfully JS-clicked Login
+[2026-05-09 13:19:55] [INFO] verifyNavigationToLoginPage - Login Page matched with status 200 and method GET
+[2026-05-09 13:19:55] [INFO] verifyNavigationToLoginPage - Loader was not present, continuing
+[2026-05-09 13:19:56] [INFO] verifyNavigationToLoginPage - Sign In To Your Account Button is visible
+[2026-05-09 13:19:56] [INFO] Login Page is opened successfully
+[2026-05-09 13:19:57] [INFO] [ENV] Found in .env → CUSTOMER_USERNAME
+[2026-05-09 13:19:57] [INFO] [ENV] Found in .env → CUSTOMER_PASSWORD
+[2026-05-09 13:19:58] [INFO] fillEmailInput - Successfully filled Email with value: *******************
+[2026-05-09 13:19:58] [INFO] fillPasswordInput - Successfully filled Password with value: ********
+[2026-05-09 13:19:58] [INFO] toggleRememberMe - Successfully JS-clicked Toggle Remember Me
+[2026-05-09 13:19:58] [INFO] clickLoginButton - Successfully JS-clicked Login
+[2026-05-09 13:20:02] [INFO] login - Loader disappeared (hidden or detached)
+[2026-05-09 13:20:02] [INFO] verifySuccessfulLogin - Dashboard Header is visible
+[2026-05-09 13:20:02] [INFO] Login successful
+[2026-05-09 13:20:02] [INFO] Customer session saved to: storage/customer.json
+[2026-05-09 13:20:02] [INFO] Login verified as successful
