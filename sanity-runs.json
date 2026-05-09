@@ -1,5 +1,20 @@
 [
   {
+    "id": "25601999887",
+    "date": "2026-05-09T13:16:42Z",
+    "branch": "bugfix/pipeline-report-not-specific-to-run",
+    "tag": "sanity",
+    "trigger": "pull_request",
+    "status": "passed",
+    "tests": 14,
+    "passed": 14,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "passRate": "100.0",
+    "reportPath": "sanity-reports/25601999887/index.html"
+  },
+  {
     "id": "25601837271",
     "date": "2026-05-09T13:08:59Z",
     "branch": "bugfix/pipeline-report-not-specific-to-run",
