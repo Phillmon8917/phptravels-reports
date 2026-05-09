@@ -1,0 +1,24 @@
+[2026-05-09 14:31:47] [INFO] Starting scenario: Successful agent login and session storage
+[2026-05-09 14:31:48] [INFO] [ENV] Found in .env → CI
+[2026-05-09 14:31:50] [INFO] [ENV] Found in .env → BASE_URL
+[2026-05-09 14:31:50] [INFO] [ENV] Found in .env → ACTION_TIMEOUT
+[2026-05-09 14:31:50] [INFO] [ENV] Found in .env → NAVIGATION_TIMEOUT
+[2026-05-09 14:31:50] [INFO] Deleted storage state for: agent
+[2026-05-09 14:32:03] [INFO] [ENV] Found in .env → CI
+[2026-05-09 14:32:03] [INFO] loadThePage - Loader disappeared (hidden or detached)
+[2026-05-09 14:32:05] [INFO] verifyNavigationToLoginPage - Successfully JS-clicked Login
+[2026-05-09 14:32:05] [INFO] verifyNavigationToLoginPage - Login Page matched with status 200 and method GET
+[2026-05-09 14:32:05] [INFO] verifyNavigationToLoginPage - Loader was not present, continuing
+[2026-05-09 14:32:06] [INFO] verifyNavigationToLoginPage - Sign In To Your Account Button is visible
+[2026-05-09 14:32:06] [INFO] Login Page is opened successfully
+[2026-05-09 14:32:06] [INFO] [ENV] Found in .env → AGENT_USERNAME
+[2026-05-09 14:32:06] [INFO] [ENV] Found in .env → AGENT_PASSWORD
+[2026-05-09 14:32:06] [INFO] fillEmailInput - Successfully filled Email with value: ********************
+[2026-05-09 14:32:08] [INFO] fillPasswordInput - Successfully filled Password with value: *********
+[2026-05-09 14:32:08] [INFO] toggleRememberMe - Successfully JS-clicked Toggle Remember Me
+[2026-05-09 14:32:08] [INFO] clickLoginButton - Successfully JS-clicked Login
+[2026-05-09 14:32:08] [INFO] login - Loader disappeared (hidden or detached)
+[2026-05-09 14:32:13] [ERROR] SCENARIO FAILED: Successful agent login and session storage
+Tags          : [@agent, @regression, @authentication]
+Status        : FAILED
+
