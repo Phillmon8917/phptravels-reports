@@ -1,0 +1,29 @@
+[2026-05-09 13:08:14] [INFO] Starting scenario: Successful agent signup
+[2026-05-09 13:08:14] [INFO] [ENV] Found in .env → BASE_URL
+[2026-05-09 13:08:14] [INFO] [ENV] Found in .env → ACTION_TIMEOUT
+[2026-05-09 13:08:14] [INFO] [ENV] Found in .env → NAVIGATION_TIMEOUT
+[2026-05-09 13:08:28] [INFO] loadThePage - Loader disappeared (hidden or detached)
+[2026-05-09 13:08:28] [INFO] verifyNavigationToAgentSignupPage - Successfully hovered over Signup
+[2026-05-09 13:08:30] [INFO] verifyNavigationToAgentSignupPage - Successfully clicked Agent Signup
+[2026-05-09 13:08:30] [INFO] verifyNavigationToAgentSignupPage - Agent Signup Page matched with status 200 and method GET
+[2026-05-09 13:08:34] [INFO] verifyNavigationToAgentSignupPage - Successfully JS-clicked Agent Signup Link
+[2026-05-09 13:08:34] [INFO] verifyNavigationToAgentSignupPage - Agent Signup Page matched with status 200 and method GET
+[2026-05-09 13:08:35] [INFO] verifyNavigationToAgentSignupPage - Agent Registration Header is visible
+[2026-05-09 13:08:35] [INFO] Agent Signup Page is opened successfully
+[2026-05-09 13:08:36] [INFO] extractSecurityCheckQuestion - Successfully retrieved text from Security Check Question
+[2026-05-09 13:08:36] [INFO] Security check question is: 
+                Security Check: What is two times four? *
+            
+[2026-05-09 13:08:36] [INFO] Security question solved: 2 multiply 4 = 8
+[2026-05-09 13:08:36] [INFO] Security check answer is: 8
+[2026-05-09 13:08:36] [INFO] fillFirstNameInput - Successfully filled First Name with value: Aldo
+[2026-05-09 13:08:37] [INFO] fillLastNameInput - Successfully filled Last Name with value: Bergstrom
+[2026-05-09 13:08:38] [INFO] fillEmailInput - Successfully filled Email with value: ***************************
+[2026-05-09 13:08:38] [INFO] fillPasswordInput - Successfully filled Password with value: *********
+[2026-05-09 13:08:38] [INFO] fillConfirmPasswordInput - Successfully filled Confirm Password with value: *********
+[2026-05-09 13:08:38] [INFO] fillSecurityCheckAnswerInput - Successfully filled Security Check Answer with value: 8
+[2026-05-09 13:08:38] [INFO] agreeToTerms - Successfully JS-clicked Agree to Terms
+[2026-05-09 13:08:38] [INFO] clickCreateAccountButton - Successfully JS-clicked Create Account
+[2026-05-09 13:08:39] [INFO] fillTheSignUpForm - Create Account matched with status 200 and method GET
+[2026-05-09 13:08:40] [INFO] verifyBackendValidationErrorsAreHidden - Backend Error Message is hidden
+[2026-05-09 13:08:40] [INFO] Assertion Passed - Signup is successful
