@@ -1,1 +1,17 @@
-[]
+[
+  {
+    "id": "25593139539",
+    "date": "2026-05-09T05:43:46Z",
+    "branch": "qa",
+    "tag": "regression",
+    "trigger": "schedule",
+    "status": "failed",
+    "tests": 6,
+    "passed": 0,
+    "failures": 0,
+    "errors": 6,
+    "skipped": 0,
+    "passRate": "0",
+    "reportPath": "monthly-reports/25593139539/index.html"
+  }
+]
