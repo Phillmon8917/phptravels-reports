@@ -1,5 +1,20 @@
 [
   {
+    "id": "25603671614",
+    "date": "2026-05-09T14:43:53Z",
+    "branch": "qa",
+    "tag": "regression",
+    "trigger": "workflow_dispatch",
+    "status": "failed",
+    "tests": 48,
+    "passed": 45,
+    "failures": 0,
+    "errors": 3,
+    "skipped": 0,
+    "passRate": "93.7",
+    "reportPath": "regression-reports/25603671614/index.html"
+  },
+  {
     "id": "25593139539",
     "date": "2026-05-09T05:43:46Z",
     "branch": "qa",
