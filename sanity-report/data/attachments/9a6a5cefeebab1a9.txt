@@ -1,0 +1,29 @@
+[2026-05-12 07:23:54] [INFO] Starting scenario: Successful agent signup
+[2026-05-12 07:23:54] [INFO] [ENV] Found in .env → BASE_URL
+[2026-05-12 07:23:55] [INFO] [ENV] Found in .env → ACTION_TIMEOUT
+[2026-05-12 07:23:55] [INFO] [ENV] Found in .env → NAVIGATION_TIMEOUT
+[2026-05-12 07:24:08] [INFO] loadThePage - Loader disappeared (hidden or detached)
+[2026-05-12 07:24:09] [INFO] verifyNavigationToAgentSignupPage - Successfully hovered over Signup
+[2026-05-12 07:24:10] [INFO] verifyNavigationToAgentSignupPage - Successfully clicked Agent Signup
+[2026-05-12 07:24:10] [INFO] verifyNavigationToAgentSignupPage - Agent Signup Page matched with status 200 and method GET
+[2026-05-12 07:24:11] [INFO] verifyNavigationToAgentSignupPage - Successfully JS-clicked Agent Signup Link
+[2026-05-12 07:24:11] [INFO] verifyNavigationToAgentSignupPage - Agent Signup Page matched with status 200 and method GET
+[2026-05-12 07:24:13] [INFO] verifyNavigationToAgentSignupPage - Agent Registration Header is visible
+[2026-05-12 07:24:13] [INFO] Agent Signup Page is opened successfully
+[2026-05-12 07:24:13] [INFO] extractSecurityCheckQuestion - Successfully retrieved text from Security Check Question
+[2026-05-12 07:24:13] [INFO] Security check question is: 
+                Security Check: What is twenty-nine minus twenty-one? *
+            
+[2026-05-12 07:24:13] [INFO] Security question solved: 29 subtract 21 = 8
+[2026-05-12 07:24:13] [INFO] Security check answer is: 8
+[2026-05-12 07:24:13] [INFO] fillFirstNameInput - Successfully filled First Name with value: Ruby
+[2026-05-12 07:24:14] [INFO] fillLastNameInput - Successfully filled Last Name with value: Glover
+[2026-05-12 07:24:15] [INFO] fillEmailInput - Successfully filled Email with value: *************************
+[2026-05-12 07:24:15] [INFO] fillPasswordInput - Successfully filled Password with value: *********
+[2026-05-12 07:24:15] [INFO] fillConfirmPasswordInput - Successfully filled Confirm Password with value: *********
+[2026-05-12 07:24:16] [INFO] fillSecurityCheckAnswerInput - Successfully filled Security Check Answer with value: 8
+[2026-05-12 07:24:16] [INFO] agreeToTerms - Successfully JS-clicked Agree to Terms
+[2026-05-12 07:24:16] [INFO] clickCreateAccountButton - Successfully JS-clicked Create Account
+[2026-05-12 07:24:16] [INFO] fillTheSignUpForm - Create Account matched with status 200 and method GET
+[2026-05-12 07:24:18] [INFO] verifyBackendValidationErrorsAreHidden - Backend Error Message is hidden
+[2026-05-12 07:24:18] [INFO] Assertion Passed - Signup is successful
