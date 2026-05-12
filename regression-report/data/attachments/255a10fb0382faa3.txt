@@ -1,0 +1,22 @@
+[2026-05-12 07:42:45] [INFO] Starting scenario: Confirm password field validation on agent signup
+[2026-05-12 07:42:47] [INFO] [ENV] Found in .env → CI
+[2026-05-12 07:42:48] [INFO] [ENV] Found in .env → BASE_URL
+[2026-05-12 07:42:48] [INFO] [ENV] Found in .env → ACTION_TIMEOUT
+[2026-05-12 07:42:48] [INFO] [ENV] Found in .env → NAVIGATION_TIMEOUT
+[2026-05-12 07:43:03] [INFO] loadThePage - Loader disappeared (hidden or detached)
+[2026-05-12 07:43:03] [INFO] verifyNavigationToAgentSignupPage - Successfully hovered over Signup
+[2026-05-12 07:43:05] [INFO] verifyNavigationToAgentSignupPage - Successfully clicked Agent Signup
+[2026-05-12 07:43:05] [INFO] verifyNavigationToAgentSignupPage - Agent Signup Page matched with status 200 and method GET
+[2026-05-12 07:43:08] [INFO] verifyNavigationToAgentSignupPage - Successfully JS-clicked Agent Signup Link
+[2026-05-12 07:43:08] [INFO] verifyNavigationToAgentSignupPage - Agent Signup Page matched with status 200 and method GET
+[2026-05-12 07:43:10] [INFO] verifyNavigationToAgentSignupPage - Agent Registration Header is visible
+[2026-05-12 07:43:10] [INFO] Agent Signup Page is opened successfully
+[2026-05-12 07:43:10] [INFO] fillFirstNameInput - Successfully filled First Name with value: Orville
+[2026-05-12 07:43:10] [INFO] fillLastNameInput - Successfully filled Last Name with value: Glover
+[2026-05-12 07:43:11] [INFO] fillEmailInput - Successfully filled Email with value: *******************************
+[2026-05-12 07:43:12] [INFO] fillPasswordInput - Successfully filled Password with value: ***********
+[2026-05-12 07:43:13] [INFO] agreeToTerms - Successfully JS-clicked Agree to Terms
+[2026-05-12 07:43:13] [INFO] clickCreateAccountButton - Successfully JS-clicked Create Account
+[2026-05-12 07:43:13] [INFO] getValidationMessage - Native validation message found for field: confirm_password
+[2026-05-12 07:43:13] [INFO] fillTheSignUpForm - Validation Message is not null or empty: "Please fill out this field."
+[2026-05-12 07:43:13] [INFO] Assertion Passed - Confirm password input validation is successful
