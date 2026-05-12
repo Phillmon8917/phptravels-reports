@@ -1,0 +1,34 @@
+[2026-05-12 06:03:10] [INFO] Starting scenario: First name field validation on agent signup
+[2026-05-12 06:03:10] [INFO] [ENV] Found in .env → BASE_URL
+[2026-05-12 06:03:10] [INFO] [ENV] Found in .env → ACTION_TIMEOUT
+[2026-05-12 06:03:10] [INFO] [ENV] Found in .env → NAVIGATION_TIMEOUT
+[2026-05-12 06:03:23] [INFO] loadThePage - Loader disappeared (hidden or detached)
+[2026-05-12 06:03:24] [INFO] verifyNavigationToAgentSignupPage - Successfully hovered over Signup
+[2026-05-12 06:03:25] [INFO] verifyNavigationToAgentSignupPage - Successfully clicked Agent Signup
+[2026-05-12 06:03:26] [INFO] verifyNavigationToAgentSignupPage - Agent Signup Page matched with status 200 and method GET
+[2026-05-12 06:03:27] [INFO] verifyNavigationToAgentSignupPage - Successfully JS-clicked Agent Signup Link
+[2026-05-12 06:03:27] [INFO] verifyNavigationToAgentSignupPage - Agent Signup Page matched with status 200 and method GET
+[2026-05-12 06:03:28] [INFO] verifyNavigationToAgentSignupPage - Agent Registration Header is visible
+[2026-05-12 06:03:28] [INFO] Agent Signup Page is opened successfully
+[2026-05-12 06:03:29] [INFO] fillLastNameInput - Successfully filled Last Name with value: Littel
+[2026-05-12 06:03:30] [INFO] fillEmailInput - Successfully filled Email with value: **************************
+[2026-05-12 06:03:31] [INFO] fillPasswordInput - Successfully filled Password with value: **********
+[2026-05-12 06:03:31] [INFO] fillConfirmPasswordInput - Successfully filled Confirm Password with value: **********
+[2026-05-12 06:03:31] [INFO] agreeToTerms - Successfully JS-clicked Agree to Terms
+[2026-05-12 06:03:31] [INFO] clickCreateAccountButton - Successfully JS-clicked Create Account
+[2026-05-12 06:03:48] [ERROR] getValidationMessage - Failed to get validation message for field: first_name: Error {
+  message='Timeout 16000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 16000ms exceeded.
+    at ProgressController.run (/tmp/playwright-java-2266240542047682155/package/lib/server/progress.js:92:28)
+    at FrameDispatcher._runCommand (/tmp/playwright-java-2266240542047682155/package/lib/server/dispatchers/dispatcher.js:91:31)
+    at DispatcherConnection.dispatch (/tmp/playwright-java-2266240542047682155/package/lib/server/dispatchers/dispatcher.js:325:39)
+}
+[2026-05-12 06:03:48] [ERROR] fillTheSignUpForm - Validation Message assertion failed: Validation Message is null or empty
+[2026-05-12 06:03:48] [ERROR] SCENARIO FAILED: First name field validation on agent signup
+Tags          : [@regression, @guest, @shard2, @sanity]
+Status        : FAILED
+Error Type    : RuntimeException
+Message       : Validation Message is null or empty
+Location      : modulars.assertions.ElementAssertions.assertNotNullOrEmptyVar(ElementAssertions.java:209)
+
