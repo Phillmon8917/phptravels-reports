@@ -1,0 +1,8 @@
+[2026-05-13 06:22:51] [INFO] Starting scenario: Navigate to travel insurance page
+[2026-05-13 06:22:51] [INFO] [ENV] Found in .env → BASE_URL
+[2026-05-13 06:22:51] [INFO] [ENV] Found in .env → ACTION_TIMEOUT
+[2026-05-13 06:22:51] [INFO] [ENV] Found in .env → NAVIGATION_TIMEOUT
+[2026-05-13 06:23:04] [INFO] loadThePage - Loader disappeared (hidden or detached)
+[2026-05-13 06:23:06] [INFO] verifyNavigationToTravelInsurancePage - Successfully JS-clicked Travel Insurance Navigation Link
+[2026-05-13 06:23:06] [INFO] verifyNavigationToTravelInsurancePage - Travel Insurance Page matched with status 200 and method GET
+[2026-05-13 06:23:06] [INFO] Assertion Passed - Navigation to travel insurance page is successful

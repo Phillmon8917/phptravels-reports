@@ -1,0 +1,10 @@
+[2026-05-13 06:23:47] [INFO] Starting scenario: Navigate to blogs page
+[2026-05-13 06:23:47] [INFO] [ENV] Found in .env → BASE_URL
+[2026-05-13 06:23:47] [INFO] [ENV] Found in .env → ACTION_TIMEOUT
+[2026-05-13 06:23:47] [INFO] [ENV] Found in .env → NAVIGATION_TIMEOUT
+[2026-05-13 06:24:00] [INFO] loadThePage - Loader disappeared (hidden or detached)
+[2026-05-13 06:24:02] [INFO] verifyNavigationToBlogsPage - Successfully JS-clicked Blogs
+[2026-05-13 06:24:02] [INFO] verifyNavigationToBlogsPage - Blogs Page matched with status 302 and method GET
+[2026-05-13 06:24:03] [INFO] verifyNavigationToBlogsPage - Blogs Header is visible
+[2026-05-13 06:24:03] [INFO] Blogs Page is opened successfully
+[2026-05-13 06:24:03] [INFO] Assertion Passed - Navigation to blogs page is successful
