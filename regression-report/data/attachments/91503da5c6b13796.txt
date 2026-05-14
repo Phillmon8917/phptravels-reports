@@ -1,0 +1,8 @@
+[2026-05-14 06:19:44] [INFO] Starting scenario: Navigate to FAQ page
+[2026-05-14 06:19:44] [INFO] [ENV] Found in .env → BASE_URL
+[2026-05-14 06:19:44] [INFO] [ENV] Found in .env → ACTION_TIMEOUT
+[2026-05-14 06:19:44] [INFO] [ENV] Found in .env → NAVIGATION_TIMEOUT
+[2026-05-14 06:19:55] [INFO] loadThePage - Loader disappeared (hidden or detached)
+[2026-05-14 06:19:56] [INFO] verifyNavigationToFAQPage - Successfully JS-clicked FAQ Navigation Link
+[2026-05-14 06:19:56] [INFO] verifyNavigationToFAQPage - FAQ Page matched with status 200 and method GET
+[2026-05-14 06:19:56] [INFO] Assertion Passed - Navigation to FAQ page is successful
