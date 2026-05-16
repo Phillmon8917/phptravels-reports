@@ -1,5 +1,20 @@
 [
   {
+    "id": "25957203419",
+    "date": "2026-05-16T08:58:11Z",
+    "branch": "qa",
+    "tag": "sanity",
+    "trigger": "schedule",
+    "status": "failed",
+    "tests": 14,
+    "passed": 3,
+    "failures": 0,
+    "errors": 11,
+    "skipped": 0,
+    "passRate": "21.4",
+    "reportPath": "sanity-reports/25957203419/index.html"
+  },
+  {
     "id": "25916226387",
     "date": "2026-05-15T12:27:09Z",
     "branch": "qa",
