@@ -1,0 +1,21 @@
+[2026-05-17 11:12:53] [INFO] Starting scenario: Change language to Russian
+[2026-05-17 11:12:54] [INFO] [ENV] Found in .env → BASE_URL
+[2026-05-17 11:12:54] [INFO] [ENV] Found in .env → ACTION_TIMEOUT
+[2026-05-17 11:12:54] [INFO] [ENV] Found in .env → NAVIGATION_TIMEOUT
+[2026-05-17 11:13:09] [INFO] loadThePage - Loader disappeared (hidden or detached)
+[2026-05-17 11:13:09] [INFO] verifyLanguageChange - Successfully clicked Language
+[2026-05-17 11:15:49] [ERROR] verifyLanguageChange - Failed to JS-click Russian: Error {
+  message='Timeout 160000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 160000ms exceeded.
+    at ProgressController.run (/tmp/playwright-java-9531780857657634536/package/lib/server/progress.js:92:28)
+    at FrameDispatcher._runCommand (/tmp/playwright-java-9531780857657634536/package/lib/server/dispatchers/dispatcher.js:91:31)
+    at DispatcherConnection.dispatch (/tmp/playwright-java-9531780857657634536/package/lib/server/dispatchers/dispatcher.js:325:39)
+}
+Call log:
+-   - waiting for getByRole(AriaRole.LINK, new Page.GetByRoleOptions().setName("Russian"))
+
+[2026-05-17 11:15:49] [ERROR] SCENARIO FAILED: Change language to Russian
+Tags          : [@regression, @guest, @shard1, @sanity]
+Status        : FAILED
+
