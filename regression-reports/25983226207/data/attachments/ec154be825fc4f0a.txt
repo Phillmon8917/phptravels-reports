@@ -1,0 +1,21 @@
+[2026-05-17 06:39:04] [INFO] Starting scenario: Change currency to NGN
+[2026-05-17 06:39:04] [INFO] [ENV] Found in .env → BASE_URL
+[2026-05-17 06:39:04] [INFO] [ENV] Found in .env → ACTION_TIMEOUT
+[2026-05-17 06:39:04] [INFO] [ENV] Found in .env → NAVIGATION_TIMEOUT
+[2026-05-17 06:39:09] [INFO] loadThePage - Loader disappeared (hidden or detached)
+[2026-05-17 06:39:09] [INFO] verifyCurrencyChange - Successfully clicked Currency
+[2026-05-17 06:41:49] [ERROR] verifyCurrencyChange - Failed to JS-click NGN: Error {
+  message='Timeout 160000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 160000ms exceeded.
+    at ProgressController.run (/tmp/playwright-java-16859736422895693802/package/lib/server/progress.js:92:28)
+    at FrameDispatcher._runCommand (/tmp/playwright-java-16859736422895693802/package/lib/server/dispatchers/dispatcher.js:91:31)
+    at DispatcherConnection.dispatch (/tmp/playwright-java-16859736422895693802/package/lib/server/dispatchers/dispatcher.js:325:39)
+}
+Call log:
+-   - waiting for getByRole(AriaRole.LINK, new Page.GetByRoleOptions().setName("NGN"))
+
+[2026-05-17 06:41:49] [ERROR] SCENARIO FAILED: Change currency to NGN
+Tags          : [@regression, @guest, @shard1]
+Status        : FAILED
+

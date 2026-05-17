@@ -1,0 +1,23 @@
+[2026-05-17 06:35:42] [INFO] Starting scenario: Navigate to visa booking page
+[2026-05-17 06:35:42] [INFO] [ENV] Found in .env → BASE_URL
+[2026-05-17 06:35:42] [INFO] [ENV] Found in .env → ACTION_TIMEOUT
+[2026-05-17 06:35:42] [INFO] [ENV] Found in .env → NAVIGATION_TIMEOUT
+[2026-05-17 06:35:55] [INFO] loadThePage - Loader disappeared (hidden or detached)
+[2026-05-17 06:35:55] [INFO] verifyNavigationToVisaBookingPage - Successfully clicked Services
+[2026-05-17 06:38:35] [ERROR] verifyNavigationToVisaBookingPage - Failed to click Visa Booking: Error {
+  message='Timeout 160000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 160000ms exceeded.
+    at ProgressController.run (/tmp/playwright-java-16859736422895693802/package/lib/server/progress.js:92:28)
+    at FrameDispatcher._runCommand (/tmp/playwright-java-16859736422895693802/package/lib/server/dispatchers/dispatcher.js:91:31)
+    at DispatcherConnection.dispatch (/tmp/playwright-java-16859736422895693802/package/lib/server/dispatchers/dispatcher.js:325:39)
+    at runNextTicks (node:internal/process/task_queues:65:5)
+    at process.processImmediate (node:internal/timers:472:9)
+}
+Call log:
+-   - waiting for getByRole(AriaRole.NAVIGATION).getByRole(AriaRole.LINK, new Locator.GetByRoleOptions().setName("chevron_right Visa Booking"))
+
+[2026-05-17 06:38:35] [ERROR] SCENARIO FAILED: Navigate to visa booking page
+Tags          : [@regression, @guest, @shard1, @sanity]
+Status        : FAILED
+
