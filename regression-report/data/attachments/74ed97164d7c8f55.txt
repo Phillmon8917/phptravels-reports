@@ -1,0 +1,17 @@
+[2026-05-18 06:50:24] [INFO] Starting scenario: All quick search tabs are visible
+[2026-05-18 06:50:24] [INFO] [ENV] Found in .env → BASE_URL
+[2026-05-18 06:50:24] [INFO] [ENV] Found in .env → ACTION_TIMEOUT
+[2026-05-18 06:50:24] [INFO] [ENV] Found in .env → NAVIGATION_TIMEOUT
+[2026-05-18 06:50:29] [INFO] loadThePage - Loader disappeared (hidden or detached)
+[2026-05-18 06:50:29] [INFO] verifyAllQuickSearchTabsAreVisible - Successfully clicked Visa Quick Search Tab
+[2026-05-18 06:50:34] [ERROR] SCENARIO FAILED: All quick search tabs are visible
+Tags          : [@regression, @guest, @shard1]
+Status        : FAILED
+Error Type    : AssertionFailedError
+Message       : Locator expected to be visible
+Error: element(s) not found
+Call log:
+  - Assert "isVisible" with timeout 5000ms
+  - waiting for getByRole(AriaRole.BUTTON, new Page.GetByRoleOptions().setName(Pattern.compile("Check Visa|Searching", Pattern.CASE_INSENSITIVE)))
+Location      : com.microsoft.playwright.impl.AssertionsBase.expectImpl(AssertionsBase.java:69)
+
