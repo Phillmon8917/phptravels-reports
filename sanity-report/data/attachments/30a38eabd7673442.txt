@@ -1,0 +1,45 @@
+[2026-05-19 12:43:41] [INFO] Starting scenario: Navigate to visa booking page
+[2026-05-19 12:43:41] [INFO] [ENV] Found in .env → BASE_URL
+[2026-05-19 12:43:41] [INFO] [ENV] Found in .env → ACTION_TIMEOUT
+[2026-05-19 12:43:41] [INFO] [ENV] Found in .env → NAVIGATION_TIMEOUT
+[2026-05-19 12:43:46] [INFO] loadThePage - Loader disappeared (hidden or detached)
+[2026-05-19 12:43:46] [INFO] verifyNavigationToVisaBookingPage - Successfully clicked Services
+[2026-05-19 12:46:26] [ERROR] verifyNavigationToVisaBookingPage - Failed to click Visa Booking: Error {
+  message='Timeout 160000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 160000ms exceeded.
+    at ProgressController.run (/tmp/playwright-java-15945516815811016824/package/lib/server/progress.js:92:28)
+    at FrameDispatcher._runCommand (/tmp/playwright-java-15945516815811016824/package/lib/server/dispatchers/dispatcher.js:91:31)
+    at DispatcherConnection.dispatch (/tmp/playwright-java-15945516815811016824/package/lib/server/dispatchers/dispatcher.js:325:39)
+}
+Call log:
+-   - waiting for getByRole(AriaRole.NAVIGATION).getByRole(AriaRole.LINK, new Locator.GetByRoleOptions().setName("chevron_right Visa Booking"))
+
+[2026-05-19 12:46:26] [ERROR] SCENARIO FAILED: Navigate to visa booking page
+Tags          : [@regression, @guest, @shard1, @sanity]
+Status        : FAILED
+Error Type    : TimeoutError
+Message       : Error {
+  message='Timeout 160000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 160000ms exceeded.
+    at ProgressController.run (/tmp/playwright-java-15945516815811016824/package/lib/server/progress.js:92:28)
+    at FrameDispatcher._runCommand (/tmp/playwright-java-15945516815811016824/package/lib/server/dispatchers/dispatcher.js:91:31)
+    at DispatcherConnection.dispatch (/tmp/playwright-java-15945516815811016824/package/lib/server/dispatchers/dispatcher.js:325:39)
+}
+Call log:
+-   - waiting for getByRole(AriaRole.NAVIGATION).getByRole(AriaRole.LINK, new Locator.GetByRoleOptions().setName("chevron_right Visa Booking"))
+
+Caused By     : Error {
+  message='Timeout 160000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 160000ms exceeded.
+    at ProgressController.run (/tmp/playwright-java-15945516815811016824/package/lib/server/progress.js:92:28)
+    at FrameDispatcher._runCommand (/tmp/playwright-java-15945516815811016824/package/lib/server/dispatchers/dispatcher.js:91:31)
+    at DispatcherConnection.dispatch (/tmp/playwright-java-15945516815811016824/package/lib/server/dispatchers/dispatcher.js:325:39)
+}
+Call log:
+-   - waiting for getByRole(AriaRole.NAVIGATION).getByRole(AriaRole.LINK, new Locator.GetByRoleOptions().setName("chevron_right Visa Booking"))
+
+Location      : com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:52)
+
