@@ -1,0 +1,45 @@
+[2026-05-19 07:00:42] [INFO] Starting scenario: Change currency to NGN
+[2026-05-19 07:00:42] [INFO] [ENV] Found in .env → BASE_URL
+[2026-05-19 07:00:42] [INFO] [ENV] Found in .env → ACTION_TIMEOUT
+[2026-05-19 07:00:42] [INFO] [ENV] Found in .env → NAVIGATION_TIMEOUT
+[2026-05-19 07:00:46] [INFO] loadThePage - Loader disappeared (hidden or detached)
+[2026-05-19 07:00:46] [INFO] verifyCurrencyChange - Successfully clicked Currency
+[2026-05-19 07:03:26] [ERROR] verifyCurrencyChange - Failed to JS-click NGN: Error {
+  message='Timeout 160000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 160000ms exceeded.
+    at ProgressController.run (/tmp/playwright-java-15039987573571090602/package/lib/server/progress.js:92:28)
+    at FrameDispatcher._runCommand (/tmp/playwright-java-15039987573571090602/package/lib/server/dispatchers/dispatcher.js:91:31)
+    at DispatcherConnection.dispatch (/tmp/playwright-java-15039987573571090602/package/lib/server/dispatchers/dispatcher.js:325:39)
+}
+Call log:
+-   - waiting for getByRole(AriaRole.LINK, new Page.GetByRoleOptions().setName("NGN"))
+
+[2026-05-19 07:03:26] [ERROR] SCENARIO FAILED: Change currency to NGN
+Tags          : [@regression, @guest, @shard1]
+Status        : FAILED
+Error Type    : TimeoutError
+Message       : Error {
+  message='Timeout 160000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 160000ms exceeded.
+    at ProgressController.run (/tmp/playwright-java-15039987573571090602/package/lib/server/progress.js:92:28)
+    at FrameDispatcher._runCommand (/tmp/playwright-java-15039987573571090602/package/lib/server/dispatchers/dispatcher.js:91:31)
+    at DispatcherConnection.dispatch (/tmp/playwright-java-15039987573571090602/package/lib/server/dispatchers/dispatcher.js:325:39)
+}
+Call log:
+-   - waiting for getByRole(AriaRole.LINK, new Page.GetByRoleOptions().setName("NGN"))
+
+Caused By     : Error {
+  message='Timeout 160000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 160000ms exceeded.
+    at ProgressController.run (/tmp/playwright-java-15039987573571090602/package/lib/server/progress.js:92:28)
+    at FrameDispatcher._runCommand (/tmp/playwright-java-15039987573571090602/package/lib/server/dispatchers/dispatcher.js:91:31)
+    at DispatcherConnection.dispatch (/tmp/playwright-java-15039987573571090602/package/lib/server/dispatchers/dispatcher.js:325:39)
+}
+Call log:
+-   - waiting for getByRole(AriaRole.LINK, new Page.GetByRoleOptions().setName("NGN"))
+
+Location      : com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:52)
+

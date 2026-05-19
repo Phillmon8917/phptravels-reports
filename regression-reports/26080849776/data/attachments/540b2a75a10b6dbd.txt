@@ -1,0 +1,44 @@
+[2026-05-19 07:08:50] [INFO] Starting scenario: Navigate to how to book page
+[2026-05-19 07:08:50] [INFO] [ENV] Found in .env → BASE_URL
+[2026-05-19 07:08:50] [INFO] [ENV] Found in .env → ACTION_TIMEOUT
+[2026-05-19 07:08:50] [INFO] [ENV] Found in .env → NAVIGATION_TIMEOUT
+[2026-05-19 07:08:54] [INFO] loadThePage - Loader disappeared (hidden or detached)
+[2026-05-19 07:11:34] [ERROR] verifyNavigationToHowToBookPage - Failed to JS-click How To Book Navigation Link: Error {
+  message='Timeout 160000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 160000ms exceeded.
+    at ProgressController.run (/tmp/playwright-java-15039987573571090602/package/lib/server/progress.js:92:28)
+    at FrameDispatcher._runCommand (/tmp/playwright-java-15039987573571090602/package/lib/server/dispatchers/dispatcher.js:91:31)
+    at DispatcherConnection.dispatch (/tmp/playwright-java-15039987573571090602/package/lib/server/dispatchers/dispatcher.js:325:39)
+}
+Call log:
+-   - waiting for getByRole(AriaRole.LINK, new Page.GetByRoleOptions().setName("chevron_right How to Book"))
+
+[2026-05-19 07:11:34] [ERROR] SCENARIO FAILED: Navigate to how to book page
+Tags          : [@regression, @guest, @shard1]
+Status        : FAILED
+Error Type    : TimeoutError
+Message       : Error {
+  message='Timeout 160000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 160000ms exceeded.
+    at ProgressController.run (/tmp/playwright-java-15039987573571090602/package/lib/server/progress.js:92:28)
+    at FrameDispatcher._runCommand (/tmp/playwright-java-15039987573571090602/package/lib/server/dispatchers/dispatcher.js:91:31)
+    at DispatcherConnection.dispatch (/tmp/playwright-java-15039987573571090602/package/lib/server/dispatchers/dispatcher.js:325:39)
+}
+Call log:
+-   - waiting for getByRole(AriaRole.LINK, new Page.GetByRoleOptions().setName("chevron_right How to Book"))
+
+Caused By     : Error {
+  message='Timeout 160000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 160000ms exceeded.
+    at ProgressController.run (/tmp/playwright-java-15039987573571090602/package/lib/server/progress.js:92:28)
+    at FrameDispatcher._runCommand (/tmp/playwright-java-15039987573571090602/package/lib/server/dispatchers/dispatcher.js:91:31)
+    at DispatcherConnection.dispatch (/tmp/playwright-java-15039987573571090602/package/lib/server/dispatchers/dispatcher.js:325:39)
+}
+Call log:
+-   - waiting for getByRole(AriaRole.LINK, new Page.GetByRoleOptions().setName("chevron_right How to Book"))
+
+Location      : com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:52)
+
