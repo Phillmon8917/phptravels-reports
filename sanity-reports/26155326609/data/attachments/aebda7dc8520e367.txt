@@ -1,0 +1,113 @@
+[2026-05-20 10:10:28] [INFO] Starting scenario: Successful agent signup
+[2026-05-20 10:10:28] [INFO] [ENV] Found in .env → BASE_URL
+[2026-05-20 10:10:28] [INFO] [ENV] Found in .env → ACTION_TIMEOUT
+[2026-05-20 10:10:28] [INFO] [ENV] Found in .env → NAVIGATION_TIMEOUT
+[2026-05-20 10:10:33] [INFO] loadThePage - Loader disappeared (hidden or detached)
+[2026-05-20 10:13:13] [ERROR] verifyNavigationToAgentSignupPage - Failed to hover over Signup: Error {
+  message='Timeout 160000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 160000ms exceeded.
+    at ProgressController.run (/tmp/playwright-java-9524301714930793424/package/lib/server/progress.js:92:28)
+    at FrameDispatcher._runCommand (/tmp/playwright-java-9524301714930793424/package/lib/server/dispatchers/dispatcher.js:91:31)
+    at DispatcherConnection.dispatch (/tmp/playwright-java-9524301714930793424/package/lib/server/dispatchers/dispatcher.js:325:39)
+}
+Call log:
+-   - waiting for getByRole(AriaRole.BUTTON, new Page.GetByRoleOptions().setName("person_add Signup expand_more"))
+-     - locator resolved to <button class="btn light flex items-center gap-1.5">…</button>
+-   - attempting hover action
+-     2 × waiting for element to be visible and stable
+-       - element is visible and stable
+-       - scrolling into view if needed
+-       - done scrolling
+-       - <div id="demoWarningModal" class="modal-overlay flex">…</div> intercepts pointer events
+-     - retrying hover action
+-     - waiting 20ms
+-     2 × waiting for element to be visible and stable
+-       - element is visible and stable
+-       - scrolling into view if needed
+-       - done scrolling
+-       - <div id="demoWarningModal" class="modal-overlay flex">…</div> intercepts pointer events
+-     - retrying hover action
+-       - waiting 100ms
+-     309 × waiting for element to be visible and stable
+-         - element is visible and stable
+-         - scrolling into view if needed
+-         - done scrolling
+-         - <div id="demoWarningModal" class="modal-overlay flex">…</div> intercepts pointer events
+-       - retrying hover action
+-         - waiting 500ms
+
+[2026-05-20 10:13:13] [ERROR] SCENARIO FAILED: Successful agent signup
+Tags          : [@regression, @guest, @shard2, @sanity]
+Status        : FAILED
+Error Type    : TimeoutError
+Message       : Error {
+  message='Timeout 160000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 160000ms exceeded.
+    at ProgressController.run (/tmp/playwright-java-9524301714930793424/package/lib/server/progress.js:92:28)
+    at FrameDispatcher._runCommand (/tmp/playwright-java-9524301714930793424/package/lib/server/dispatchers/dispatcher.js:91:31)
+    at DispatcherConnection.dispatch (/tmp/playwright-java-9524301714930793424/package/lib/server/dispatchers/dispatcher.js:325:39)
+}
+Call log:
+-   - waiting for getByRole(AriaRole.BUTTON, new Page.GetByRoleOptions().setName("person_add Signup expand_more"))
+-     - locator resolved to <button class="btn light flex items-center gap-1.5">…</button>
+-   - attempting hover action
+-     2 × waiting for element to be visible and stable
+-       - element is visible and stable
+-       - scrolling into view if needed
+-       - done scrolling
+-       - <div id="demoWarningModal" class="modal-overlay flex">…</div> intercepts pointer events
+-     - retrying hover action
+-     - waiting 20ms
+-     2 × waiting for element to be visible and stable
+-       - element is visible and stable
+-       - scrolling into view if needed
+-       - done scrolling
+-       - <div id="demoWarningModal" class="modal-overlay flex">…</div> intercepts pointer events
+-     - retrying hover action
+-       - waiting 100ms
+-     309 × waiting for element to be visible and stable
+-         - element is visible and stable
+-         - scrolling into view if needed
+-         - done scrolling
+-         - <div id="demoWarningModal" class="modal-overlay flex">…</div> intercepts pointer events
+-       - retrying hover action
+-         - waiting 500ms
+
+Caused By     : Error {
+  message='Timeout 160000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 160000ms exceeded.
+    at ProgressController.run (/tmp/playwright-java-9524301714930793424/package/lib/server/progress.js:92:28)
+    at FrameDispatcher._runCommand (/tmp/playwright-java-9524301714930793424/package/lib/server/dispatchers/dispatcher.js:91:31)
+    at DispatcherConnection.dispatch (/tmp/playwright-java-9524301714930793424/package/lib/server/dispatchers/dispatcher.js:325:39)
+}
+Call log:
+-   - waiting for getByRole(AriaRole.BUTTON, new Page.GetByRoleOptions().setName("person_add Signup expand_more"))
+-     - locator resolved to <button class="btn light flex items-center gap-1.5">…</button>
+-   - attempting hover action
+-     2 × waiting for element to be visible and stable
+-       - element is visible and stable
+-       - scrolling into view if needed
+-       - done scrolling
+-       - <div id="demoWarningModal" class="modal-overlay flex">…</div> intercepts pointer events
+-     - retrying hover action
+-     - waiting 20ms
+-     2 × waiting for element to be visible and stable
+-       - element is visible and stable
+-       - scrolling into view if needed
+-       - done scrolling
+-       - <div id="demoWarningModal" class="modal-overlay flex">…</div> intercepts pointer events
+-     - retrying hover action
+-       - waiting 100ms
+-     309 × waiting for element to be visible and stable
+-         - element is visible and stable
+-         - scrolling into view if needed
+-         - done scrolling
+-         - <div id="demoWarningModal" class="modal-overlay flex">…</div> intercepts pointer events
+-       - retrying hover action
+-         - waiting 500ms
+
+Location      : com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:52)
+

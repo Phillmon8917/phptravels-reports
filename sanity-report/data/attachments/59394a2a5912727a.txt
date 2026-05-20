@@ -1,0 +1,9 @@
+[2026-05-20 10:34:47] [INFO] Starting scenario: Home page loads successfully
+[2026-05-20 10:34:47] [INFO] [ENV] Found in .env → BASE_URL
+[2026-05-20 10:34:47] [INFO] [ENV] Found in .env → ACTION_TIMEOUT
+[2026-05-20 10:34:47] [INFO] [ENV] Found in .env → NAVIGATION_TIMEOUT
+[2026-05-20 10:34:52] [INFO] loadThePage - Loader disappeared (hidden or detached)
+[2026-05-20 10:34:57] [ERROR] SCENARIO FAILED: Home page loads successfully
+Tags          : [@regression, @guest, @shard1, @sanity]
+Status        : FAILED
+
