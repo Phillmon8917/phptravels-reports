@@ -1,0 +1,113 @@
+[2026-05-20 12:42:05] [INFO] Starting scenario: Navigate to cars booking page
+[2026-05-20 12:42:05] [INFO] [ENV] Found in .env → BASE_URL
+[2026-05-20 12:42:05] [INFO] [ENV] Found in .env → ACTION_TIMEOUT
+[2026-05-20 12:42:05] [INFO] [ENV] Found in .env → NAVIGATION_TIMEOUT
+[2026-05-20 12:42:09] [INFO] loadThePage - Loader disappeared (hidden or detached)
+[2026-05-20 12:44:49] [ERROR] verifyNavigationToCarsBooking - Failed to hover over Services: Error {
+  message='Timeout 160000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 160000ms exceeded.
+    at ProgressController.run (/tmp/playwright-java-1991171035591919038/package/lib/server/progress.js:92:28)
+    at FrameDispatcher._runCommand (/tmp/playwright-java-1991171035591919038/package/lib/server/dispatchers/dispatcher.js:91:31)
+    at DispatcherConnection.dispatch (/tmp/playwright-java-1991171035591919038/package/lib/server/dispatchers/dispatcher.js:325:39)
+}
+Call log:
+-   - waiting for getByRole(AriaRole.NAVIGATION).getByRole(AriaRole.BUTTON, new Locator.GetByRoleOptions().setName("Services expand_more"))
+-     - locator resolved to <button class="flex items-center gap-1 px-3 py-2 rounded-md transition-all duration-200" onmouseout="if (!window.__cfRLUnblockHandlers) return false; this.style.color='var(--header-link-color)'" onmouseover="if (!window.__cfRLUnblockHandlers) return false; this.style.color='var(--header-link-hover-color)'">…</button>
+-   - attempting hover action
+-     2 × waiting for element to be visible and stable
+-       - element is visible and stable
+-       - scrolling into view if needed
+-       - done scrolling
+-       - <div id="demoWarningModal" class="modal-overlay flex">…</div> intercepts pointer events
+-     - retrying hover action
+-     - waiting 20ms
+-     2 × waiting for element to be visible and stable
+-       - element is visible and stable
+-       - scrolling into view if needed
+-       - done scrolling
+-       - <div id="demoWarningModal" class="modal-overlay flex">…</div> intercepts pointer events
+-     - retrying hover action
+-       - waiting 100ms
+-     309 × waiting for element to be visible and stable
+-         - element is visible and stable
+-         - scrolling into view if needed
+-         - done scrolling
+-         - <div id="demoWarningModal" class="modal-overlay flex">…</div> intercepts pointer events
+-       - retrying hover action
+-         - waiting 500ms
+
+[2026-05-20 12:44:49] [ERROR] SCENARIO FAILED: Navigate to cars booking page
+Tags          : [@regression, @guest, @shard1, @sanity]
+Status        : FAILED
+Error Type    : TimeoutError
+Message       : Error {
+  message='Timeout 160000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 160000ms exceeded.
+    at ProgressController.run (/tmp/playwright-java-1991171035591919038/package/lib/server/progress.js:92:28)
+    at FrameDispatcher._runCommand (/tmp/playwright-java-1991171035591919038/package/lib/server/dispatchers/dispatcher.js:91:31)
+    at DispatcherConnection.dispatch (/tmp/playwright-java-1991171035591919038/package/lib/server/dispatchers/dispatcher.js:325:39)
+}
+Call log:
+-   - waiting for getByRole(AriaRole.NAVIGATION).getByRole(AriaRole.BUTTON, new Locator.GetByRoleOptions().setName("Services expand_more"))
+-     - locator resolved to <button class="flex items-center gap-1 px-3 py-2 rounded-md transition-all duration-200" onmouseout="if (!window.__cfRLUnblockHandlers) return false; this.style.color='var(--header-link-color)'" onmouseover="if (!window.__cfRLUnblockHandlers) return false; this.style.color='var(--header-link-hover-color)'">…</button>
+-   - attempting hover action
+-     2 × waiting for element to be visible and stable
+-       - element is visible and stable
+-       - scrolling into view if needed
+-       - done scrolling
+-       - <div id="demoWarningModal" class="modal-overlay flex">…</div> intercepts pointer events
+-     - retrying hover action
+-     - waiting 20ms
+-     2 × waiting for element to be visible and stable
+-       - element is visible and stable
+-       - scrolling into view if needed
+-       - done scrolling
+-       - <div id="demoWarningModal" class="modal-overlay flex">…</div> intercepts pointer events
+-     - retrying hover action
+-       - waiting 100ms
+-     309 × waiting for element to be visible and stable
+-         - element is visible and stable
+-         - scrolling into view if needed
+-         - done scrolling
+-         - <div id="demoWarningModal" class="modal-overlay flex">…</div> intercepts pointer events
+-       - retrying hover action
+-         - waiting 500ms
+
+Caused By     : Error {
+  message='Timeout 160000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 160000ms exceeded.
+    at ProgressController.run (/tmp/playwright-java-1991171035591919038/package/lib/server/progress.js:92:28)
+    at FrameDispatcher._runCommand (/tmp/playwright-java-1991171035591919038/package/lib/server/dispatchers/dispatcher.js:91:31)
+    at DispatcherConnection.dispatch (/tmp/playwright-java-1991171035591919038/package/lib/server/dispatchers/dispatcher.js:325:39)
+}
+Call log:
+-   - waiting for getByRole(AriaRole.NAVIGATION).getByRole(AriaRole.BUTTON, new Locator.GetByRoleOptions().setName("Services expand_more"))
+-     - locator resolved to <button class="flex items-center gap-1 px-3 py-2 rounded-md transition-all duration-200" onmouseout="if (!window.__cfRLUnblockHandlers) return false; this.style.color='var(--header-link-color)'" onmouseover="if (!window.__cfRLUnblockHandlers) return false; this.style.color='var(--header-link-hover-color)'">…</button>
+-   - attempting hover action
+-     2 × waiting for element to be visible and stable
+-       - element is visible and stable
+-       - scrolling into view if needed
+-       - done scrolling
+-       - <div id="demoWarningModal" class="modal-overlay flex">…</div> intercepts pointer events
+-     - retrying hover action
+-     - waiting 20ms
+-     2 × waiting for element to be visible and stable
+-       - element is visible and stable
+-       - scrolling into view if needed
+-       - done scrolling
+-       - <div id="demoWarningModal" class="modal-overlay flex">…</div> intercepts pointer events
+-     - retrying hover action
+-       - waiting 100ms
+-     309 × waiting for element to be visible and stable
+-         - element is visible and stable
+-         - scrolling into view if needed
+-         - done scrolling
+-         - <div id="demoWarningModal" class="modal-overlay flex">…</div> intercepts pointer events
+-       - retrying hover action
+-         - waiting 500ms
+
+Location      : com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:52)
+
