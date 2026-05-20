@@ -1,5 +1,20 @@
 [
   {
+    "id": "26146002803",
+    "date": "2026-05-20T08:13:27Z",
+    "branch": "qa",
+    "tag": "regression",
+    "trigger": "schedule",
+    "status": "failed",
+    "tests": 45,
+    "passed": 4,
+    "failures": 2,
+    "errors": 39,
+    "skipped": 0,
+    "passRate": "8.8",
+    "reportPath": "regression-reports/26146002803/index.html"
+  },
+  {
     "id": "26080849776",
     "date": "2026-05-19T08:09:38Z",
     "branch": "qa",

@@ -1,0 +1,20 @@
+[2026-05-20 07:49:39] [INFO] Starting scenario: Navigate to travel documents page
+[2026-05-20 07:49:39] [INFO] [ENV] Found in .env → BASE_URL
+[2026-05-20 07:49:39] [INFO] [ENV] Found in .env → ACTION_TIMEOUT
+[2026-05-20 07:49:39] [INFO] [ENV] Found in .env → NAVIGATION_TIMEOUT
+[2026-05-20 07:49:44] [INFO] loadThePage - Loader disappeared (hidden or detached)
+[2026-05-20 07:52:24] [ERROR] verifyNavigationToTravelDocumentsPage - Failed to JS-click Travel Documents Navigation Link: Error {
+  message='Timeout 160000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 160000ms exceeded.
+    at ProgressController.run (/tmp/playwright-java-16128929968287769554/package/lib/server/progress.js:92:28)
+    at FrameDispatcher._runCommand (/tmp/playwright-java-16128929968287769554/package/lib/server/dispatchers/dispatcher.js:91:31)
+    at DispatcherConnection.dispatch (/tmp/playwright-java-16128929968287769554/package/lib/server/dispatchers/dispatcher.js:325:39)
+}
+Call log:
+-   - waiting for getByRole(AriaRole.LINK, new Page.GetByRoleOptions().setName("chevron_right Travel Documents"))
+
+[2026-05-20 07:52:24] [ERROR] SCENARIO FAILED: Navigate to travel documents page
+Tags          : [@regression, @guest, @shard1]
+Status        : FAILED
+
