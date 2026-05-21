@@ -1,0 +1,43 @@
+[2026-05-21 06:51:58] [INFO] Starting scenario: First name field validation on agent signup
+[2026-05-21 06:51:58] [INFO] [ENV] Found in .env → BASE_URL
+[2026-05-21 06:51:58] [INFO] [ENV] Found in .env → ACTION_TIMEOUT
+[2026-05-21 06:51:58] [INFO] [ENV] Found in .env → NAVIGATION_TIMEOUT
+[2026-05-21 06:52:06] [INFO] loadThePage - Loader disappeared (hidden or detached)
+[2026-05-21 06:54:46] [ERROR] verifyNavigationToAgentSignupPage - Failed to hover over Signup: Error {
+  message='Timeout 160000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 160000ms exceeded.
+    at ProgressController.run (/tmp/playwright-java-12239027763345888167/package/lib/server/progress.js:92:28)
+    at FrameDispatcher._runCommand (/tmp/playwright-java-12239027763345888167/package/lib/server/dispatchers/dispatcher.js:91:31)
+    at DispatcherConnection.dispatch (/tmp/playwright-java-12239027763345888167/package/lib/server/dispatchers/dispatcher.js:325:39)
+}
+Call log:
+-   - waiting for getByRole(AriaRole.BUTTON, new Page.GetByRoleOptions().setName("person_add Signup expand_more"))
+-     - locator resolved to <button class="btn light flex items-center gap-1.5">…</button>
+-   - attempting hover action
+-     2 × waiting for element to be visible and stable
+-       - element is visible and stable
+-       - scrolling into view if needed
+-       - done scrolling
+-       - <div id="demoWarningModal" class="modal-overlay flex">…</div> intercepts pointer events
+-     - retrying hover action
+-     - waiting 20ms
+-     2 × waiting for element to be visible and stable
+-       - element is visible and stable
+-       - scrolling into view if needed
+-       - done scrolling
+-       - <div id="demoWarningModal" class="modal-overlay flex">…</div> intercepts pointer events
+-     - retrying hover action
+-       - waiting 100ms
+-     310 × waiting for element to be visible and stable
+-         - element is visible and stable
+-         - scrolling into view if needed
+-         - done scrolling
+-         - <div id="demoWarningModal" class="modal-overlay flex">…</div> intercepts pointer events
+-       - retrying hover action
+-         - waiting 500ms
+
+[2026-05-21 06:54:46] [ERROR] SCENARIO FAILED: First name field validation on agent signup
+Tags          : [@regression, @guest, @shard2, @sanity]
+Status        : FAILED
+

@@ -1,0 +1,17 @@
+[2026-05-21 06:46:08] [INFO] Starting scenario: Home page loads successfully
+[2026-05-21 06:46:09] [INFO] [ENV] Found in .env → CI
+[2026-05-21 06:46:11] [INFO] [ENV] Found in .env → BASE_URL
+[2026-05-21 06:46:11] [INFO] [ENV] Found in .env → ACTION_TIMEOUT
+[2026-05-21 06:46:11] [INFO] [ENV] Found in .env → NAVIGATION_TIMEOUT
+[2026-05-21 06:46:24] [INFO] loadThePage - Loader disappeared (hidden or detached)
+[2026-05-21 06:46:29] [ERROR] SCENARIO FAILED: Home page loads successfully
+Tags          : [@regression, @guest, @shard1, @sanity]
+Status        : FAILED
+Error Type    : AssertionFailedError
+Message       : Locator expected to be visible
+Error: element(s) not found
+Call log:
+  - Assert "isVisible" with timeout 5000ms
+  - waiting for locator("a[href='https://phptravels.net/'] img[alt='PHPTARVELS']")
+Location      : com.microsoft.playwright.impl.AssertionsBase.expectImpl(AssertionsBase.java:69)
+

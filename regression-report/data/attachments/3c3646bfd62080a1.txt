@@ -1,0 +1,20 @@
+[2026-05-21 07:42:42] [INFO] Starting scenario: Navigate to accessibility page
+[2026-05-21 07:42:43] [INFO] [ENV] Found in .env → BASE_URL
+[2026-05-21 07:42:43] [INFO] [ENV] Found in .env → ACTION_TIMEOUT
+[2026-05-21 07:42:43] [INFO] [ENV] Found in .env → NAVIGATION_TIMEOUT
+[2026-05-21 07:42:56] [INFO] loadThePage - Loader disappeared (hidden or detached)
+[2026-05-21 07:45:36] [ERROR] verifyNavigationToAccessibilityPage - Failed to JS-click Accessibility Navigation Link: Error {
+  message='Timeout 160000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 160000ms exceeded.
+    at ProgressController.run (/tmp/playwright-java-15455815120863109573/package/lib/server/progress.js:92:28)
+    at FrameDispatcher._runCommand (/tmp/playwright-java-15455815120863109573/package/lib/server/dispatchers/dispatcher.js:91:31)
+    at DispatcherConnection.dispatch (/tmp/playwright-java-15455815120863109573/package/lib/server/dispatchers/dispatcher.js:325:39)
+}
+Call log:
+-   - waiting for getByRole(AriaRole.LINK, new Page.GetByRoleOptions().setName("chevron_right Accessibility"))
+
+[2026-05-21 07:45:36] [ERROR] SCENARIO FAILED: Navigate to accessibility page
+Tags          : [@regression, @guest, @shard1]
+Status        : FAILED
+
