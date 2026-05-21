@@ -1,0 +1,45 @@
+[2026-05-21 10:42:33] [INFO] Starting scenario: Confirm password field validation on agent signup
+[2026-05-21 10:42:33] [INFO] [ENV] Found in .env → BASE_URL
+[2026-05-21 10:42:33] [INFO] [ENV] Found in .env → ACTION_TIMEOUT
+[2026-05-21 10:42:33] [INFO] [ENV] Found in .env → NAVIGATION_TIMEOUT
+[2026-05-21 10:42:40] [INFO] loadThePage - Loader disappeared (hidden or detached)
+[2026-05-21 10:45:20] [ERROR] verifyNavigationToAgentSignupPage - Failed to hover over Signup: Error {
+  message='Timeout 160000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 160000ms exceeded.
+    at ProgressController.run (/tmp/playwright-java-4292951215746957425/package/lib/server/progress.js:92:28)
+    at FrameDispatcher._runCommand (/tmp/playwright-java-4292951215746957425/package/lib/server/dispatchers/dispatcher.js:91:31)
+    at DispatcherConnection.dispatch (/tmp/playwright-java-4292951215746957425/package/lib/server/dispatchers/dispatcher.js:325:39)
+    at runNextTicks (node:internal/process/task_queues:65:5)
+    at process.processImmediate (node:internal/timers:472:9)
+}
+Call log:
+-   - waiting for getByRole(AriaRole.BUTTON, new Page.GetByRoleOptions().setName("person_add Signup expand_more"))
+-     - locator resolved to <button class="btn light flex items-center gap-1.5">…</button>
+-   - attempting hover action
+-     2 × waiting for element to be visible and stable
+-       - element is visible and stable
+-       - scrolling into view if needed
+-       - done scrolling
+-       - <div id="demoWarningModal" class="modal-overlay flex">…</div> intercepts pointer events
+-     - retrying hover action
+-     - waiting 20ms
+-     2 × waiting for element to be visible and stable
+-       - element is visible and stable
+-       - scrolling into view if needed
+-       - done scrolling
+-       - <div id="demoWarningModal" class="modal-overlay flex">…</div> intercepts pointer events
+-     - retrying hover action
+-       - waiting 100ms
+-     309 × waiting for element to be visible and stable
+-         - element is visible and stable
+-         - scrolling into view if needed
+-         - done scrolling
+-         - <div id="demoWarningModal" class="modal-overlay flex">…</div> intercepts pointer events
+-       - retrying hover action
+-         - waiting 500ms
+
+[2026-05-21 10:45:20] [ERROR] SCENARIO FAILED: Confirm password field validation on agent signup
+Tags          : [@regression, @guest, @shard2, @sanity]
+Status        : FAILED
+
