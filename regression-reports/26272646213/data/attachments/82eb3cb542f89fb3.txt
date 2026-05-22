@@ -1,0 +1,44 @@
+[2026-05-22 06:53:35] [INFO] Starting scenario: Navigate to travel insurance page
+[2026-05-22 06:53:35] [INFO] [ENV] Found in .env → BASE_URL
+[2026-05-22 06:53:35] [INFO] [ENV] Found in .env → ACTION_TIMEOUT
+[2026-05-22 06:53:35] [INFO] [ENV] Found in .env → NAVIGATION_TIMEOUT
+[2026-05-22 06:53:39] [INFO] loadThePage - Loader disappeared (hidden or detached)
+[2026-05-22 06:56:19] [ERROR] verifyNavigationToTravelInsurancePage - Failed to JS-click Travel Insurance Navigation Link: Error {
+  message='Timeout 160000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 160000ms exceeded.
+    at ProgressController.run (/tmp/playwright-java-14199646340329547581/package/lib/server/progress.js:92:28)
+    at FrameDispatcher._runCommand (/tmp/playwright-java-14199646340329547581/package/lib/server/dispatchers/dispatcher.js:91:31)
+    at DispatcherConnection.dispatch (/tmp/playwright-java-14199646340329547581/package/lib/server/dispatchers/dispatcher.js:325:39)
+}
+Call log:
+-   - waiting for getByRole(AriaRole.LINK, new Page.GetByRoleOptions().setName("chevron_right Travel Insurance"))
+
+[2026-05-22 06:56:19] [ERROR] SCENARIO FAILED: Navigate to travel insurance page
+Tags          : [@regression, @guest, @shard1]
+Status        : FAILED
+Error Type    : TimeoutError
+Message       : Error {
+  message='Timeout 160000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 160000ms exceeded.
+    at ProgressController.run (/tmp/playwright-java-14199646340329547581/package/lib/server/progress.js:92:28)
+    at FrameDispatcher._runCommand (/tmp/playwright-java-14199646340329547581/package/lib/server/dispatchers/dispatcher.js:91:31)
+    at DispatcherConnection.dispatch (/tmp/playwright-java-14199646340329547581/package/lib/server/dispatchers/dispatcher.js:325:39)
+}
+Call log:
+-   - waiting for getByRole(AriaRole.LINK, new Page.GetByRoleOptions().setName("chevron_right Travel Insurance"))
+
+Caused By     : Error {
+  message='Timeout 160000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 160000ms exceeded.
+    at ProgressController.run (/tmp/playwright-java-14199646340329547581/package/lib/server/progress.js:92:28)
+    at FrameDispatcher._runCommand (/tmp/playwright-java-14199646340329547581/package/lib/server/dispatchers/dispatcher.js:91:31)
+    at DispatcherConnection.dispatch (/tmp/playwright-java-14199646340329547581/package/lib/server/dispatchers/dispatcher.js:325:39)
+}
+Call log:
+-   - waiting for getByRole(AriaRole.LINK, new Page.GetByRoleOptions().setName("chevron_right Travel Insurance"))
+
+Location      : com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:52)
+

@@ -1,0 +1,20 @@
+[2026-05-22 07:21:54] [INFO] Starting scenario: Navigate to affiliate program page
+[2026-05-22 07:21:54] [INFO] [ENV] Found in .env → BASE_URL
+[2026-05-22 07:21:54] [INFO] [ENV] Found in .env → ACTION_TIMEOUT
+[2026-05-22 07:21:54] [INFO] [ENV] Found in .env → NAVIGATION_TIMEOUT
+[2026-05-22 07:21:58] [INFO] loadThePage - Loader disappeared (hidden or detached)
+[2026-05-22 07:24:38] [ERROR] verifyNavigationToAffiliateProgramPage - Failed to JS-click Affiliate Program Navigation Link: Error {
+  message='Timeout 160000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 160000ms exceeded.
+    at ProgressController.run (/tmp/playwright-java-14199646340329547581/package/lib/server/progress.js:92:28)
+    at FrameDispatcher._runCommand (/tmp/playwright-java-14199646340329547581/package/lib/server/dispatchers/dispatcher.js:91:31)
+    at DispatcherConnection.dispatch (/tmp/playwright-java-14199646340329547581/package/lib/server/dispatchers/dispatcher.js:325:39)
+}
+Call log:
+-   - waiting for getByRole(AriaRole.LINK, new Page.GetByRoleOptions().setName("chevron_right Affiliate"))
+
+[2026-05-22 07:24:38] [ERROR] SCENARIO FAILED: Navigate to affiliate program page
+Tags          : [@regression, @guest, @shard1]
+Status        : FAILED
+

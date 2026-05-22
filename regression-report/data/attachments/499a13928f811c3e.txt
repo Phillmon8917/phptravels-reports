@@ -1,0 +1,10 @@
+[2026-05-22 07:30:21] [INFO] Starting scenario: All quick search tabs are visible
+[2026-05-22 07:30:21] [INFO] [ENV] Found in .env → BASE_URL
+[2026-05-22 07:30:21] [INFO] [ENV] Found in .env → ACTION_TIMEOUT
+[2026-05-22 07:30:21] [INFO] [ENV] Found in .env → NAVIGATION_TIMEOUT
+[2026-05-22 07:30:25] [INFO] loadThePage - Loader disappeared (hidden or detached)
+[2026-05-22 07:30:25] [INFO] verifyAllQuickSearchTabsAreVisible - Successfully clicked Visa Quick Search Tab
+[2026-05-22 07:30:30] [ERROR] SCENARIO FAILED: All quick search tabs are visible
+Tags          : [@regression, @guest, @shard1]
+Status        : FAILED
+
