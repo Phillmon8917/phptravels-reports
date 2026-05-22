@@ -1,0 +1,15 @@
+[2026-05-22 12:15:44] [INFO] Starting scenario: Download app section is displayed
+[2026-05-22 12:15:46] [INFO] [ENV] Found in .env → BASE_URL
+[2026-05-22 12:15:46] [INFO] [ENV] Found in .env → ACTION_TIMEOUT
+[2026-05-22 12:15:46] [INFO] [ENV] Found in .env → NAVIGATION_TIMEOUT
+[2026-05-22 12:16:02] [INFO] loadThePage - Loader disappeared (hidden or detached)
+[2026-05-22 12:16:02] [INFO] verifyDownloadAppSection - Successfully JS-clicked Download App Navigation Link
+[2026-05-22 12:16:02] [INFO] verifyDownloadAppSection - URL values match: actual="https://play.google.com/store/apps/details?id=com.phptravelsnative", expected="https://play.google.com/store/apps/details?id=com.phptravelsnative"
+[2026-05-22 12:16:02] [ERROR] verifyDownloadAppSection - Page Title comparison failed: Page Title values do not match: actual="Not Found", expected="PHPTRAVELS - Apps on Google Play"
+[2026-05-22 12:16:02] [ERROR] SCENARIO FAILED: Download app section is displayed
+Tags          : [@regression, @guest, @shard1, @sanity]
+Status        : FAILED
+Error Type    : RuntimeException
+Message       : Page Title values do not match: actual="Not Found", expected="PHPTRAVELS - Apps on Google Play"
+Location      : modulars.assertions.ElementAssertions.assertValuesEqual(ElementAssertions.java:281)
+

@@ -1,5 +1,20 @@
 [
   {
+    "id": "26287106667",
+    "date": "2026-05-22T12:48:58Z",
+    "branch": "qa",
+    "tag": "sanity",
+    "trigger": "schedule",
+    "status": "failed",
+    "tests": 14,
+    "passed": 1,
+    "failures": 1,
+    "errors": 12,
+    "skipped": 0,
+    "passRate": "7.1",
+    "reportPath": "sanity-reports/26287106667/index.html"
+  },
+  {
     "id": "26281052188",
     "date": "2026-05-22T10:30:24Z",
     "branch": "qa",
@@ -733,20 +748,5 @@
     "skipped": 3,
     "passRate": "70.5",
     "reportPath": "sanity-reports/25547257447/index.html"
-  },
-  {
-    "id": "25546628123",
-    "date": "2026-05-08T09:03:24Z",
-    "branch": "bugfix/pipeline-report-not-specific-to-run",
-    "tag": "sanity",
-    "trigger": "pull_request",
-    "status": "failed",
-    "tests": 17,
-    "passed": 13,
-    "failures": 0,
-    "errors": 1,
-    "skipped": 3,
-    "passRate": "76.4",
-    "reportPath": "sanity-reports/25546628123/index.html"
   }
 ]
